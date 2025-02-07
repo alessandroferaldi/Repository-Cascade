@@ -5,7 +5,7 @@ source(file="~/Desktop/Data Processing.R")
 ######## Source Analysis.R to get Results ##############
 source(file="~/Desktop/Analysis.R")
 
-######## Build Health Pathways - Overall ############
+######## Plot Health Pathways - Overall ############
 ##### Hypertension #####
 #### Males 
 hyp_path_male<-data.frame(
@@ -320,7 +320,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
   geom_text(aes(x = 5, y = 11, label = "Cascade"), size = 4.5);heatmap_plot
 
 
-######## Build Health Pathways by Income ############
+######## Plot Health Pathways by Income ############
 ##### Hypertension - High #####
 #### Males 
 hyp_path_male<-data.frame(
@@ -1579,7 +1579,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
   geom_text(aes(x = 5, y = 11, label = "Cascade"), size = 4.5);heatmap_plot
 
 ############################################
-######## Build Health Pathways by Region ############
+######## Plot Health Pathways by Region ############
 ##### Hypertension - Europe and Central Asia #####
 #### Males 
 hyp_path_male<-data.frame(

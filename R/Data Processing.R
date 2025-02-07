@@ -59,7 +59,7 @@ dat_diab_cont<-dat_diab1 %>% filter(Step=="controlled")
 dat_diab_trea<-dat_diab1 %>% filter(Step=="treated")
 dat_diab_diag<-dat_diab1 %>% filter(Step=="diagnosed")
 
-### Merge data
+### Merge data in each step
 dat_diab2<-merge(dat_diab_prev,dat_diab_diag[,c("Age","Sex","Country","n","denominator_unconditional","demoninator_conditional")],
                  by=c("Age","Sex","Country"),suffixes = c("", ".diag"),all=T)
 dat_diab3<-merge(dat_diab2,dat_diab_trea[,c("Age","Sex","Country","n","denominator_unconditional","demoninator_conditional")],
@@ -67,17 +67,6 @@ dat_diab3<-merge(dat_diab2,dat_diab_trea[,c("Age","Sex","Country","n","denominat
 dat_diab4<-merge(dat_diab3,dat_diab_cont[,c("Age","Sex","Country","n","denominator_unconditional","demoninator_conditional")],
                  by=c("Age","Sex","Country"),suffixes = c("", ".contr"),all=T)
 dat_diab5<-dat_diab4 %>% filter(Age!="all ages")
-
-### Adjust country names
-dat_diab5[dat_diab5$Country=="Afghanistan ","wb_region"]<-"South Asia"
-dat_diab5[dat_diab5$Country=="Ethopia","wb_region"]<-"Sub-Saharan Africa"
-dat_diab5[dat_diab5$Country=="Morocco","wb_region"]<-"Middle East and North Africa"
-dat_diab5[dat_diab5$Country=="Myanmmar","wb_region"]<-"East Asia and Pacific"
-dat_diab5[dat_diab5$Country=="Solomon Islands ","wb_region"]<-"East Asia and Pacific"
-dat_diab5[dat_diab5$Country=="Timor Leste","wb_region"]<-"East Asia and Pacific"
-dat_diab5[dat_diab5$Country=="Turkemenistan","wb_region"]<-"Europe and Central Asia"
-dat_diab5[dat_diab5$Country=="Vietnam","wb_region"]<-"East Asia and Pacific"
-
 dat_diab_age<-dat_diab5
 
 ### Remove young ages
@@ -90,7 +79,7 @@ diab<-merge(iso3_diab,diab,by.x="location",by.y="Country")
 diab<-merge(diab,inc_grp,by.x="iso",by.y="ISO",all.x = T)
 diab<-merge(diab,wbreg,by.x="iso",by.y="ISO3",all.x = T)
 
-### Calculate cascade
+### Calculate cascade steps
 diab$step1<-diab$n.diag/diab$denominator_unconditional.diag
 diab$step2<-diab$n.trea/diab$denominator_unconditional.trea
 diab$step3<-diab$n.contr/diab$denominator_unconditional.contr
@@ -116,6 +105,8 @@ diab$iso3<-diab$iso
 
 ### Import HIV/AIDS Cascade and include ISO3, World Bank income group and region ##### 
 HIV_AIDS<-read.csv2(file="~/Desktop/Data/HIVAIDS_cascade.csv")
+
+### Adjust country names
 HIV_AIDS$Country<-ifelse(HIV_AIDS$Country=="Cape Verde","Cabo Verde",HIV_AIDS$Country)
 HIV_AIDS$Country<-ifelse(HIV_AIDS$Country=="Ivory Coast","Cte d'Ivoire",HIV_AIDS$Country)
 

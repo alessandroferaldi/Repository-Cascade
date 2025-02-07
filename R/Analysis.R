@@ -318,7 +318,7 @@ female_higher_HIV_AIDS_mort<-female_higher
 
 ######## Analysis of Country-specific Sex Differences - Cascade of Care ############
 ##### Hypertension #####
-### Stratify Data by Sex
+### Adjust Age groups and Stratify Data by Sex
 hyp$Age <- ifelse(hyp$Age == "30-34", "30 to 34",
                   ifelse(hyp$Age == "35-39", "35 to 39",
                          ifelse(hyp$Age == "40-44", "40 to 44",
@@ -593,7 +593,7 @@ step3.2_female_higher_HIV_AIDS<-step3.2_female_higher
 
 
 ######################
-######## Stratify Results Health Pathways by Income group ############
+######## Stratify Health Pathways by Income group ############
 male_higher_sodium_HI<-male_higher_sodium %>% filter(mal.wbinc2023=="H")
 male_higher_sodium_UM<-male_higher_sodium %>% filter(mal.wbinc2023=="UM")
 male_higher_sodium_LM<-male_higher_sodium %>% filter(mal.wbinc2023=="LM")
