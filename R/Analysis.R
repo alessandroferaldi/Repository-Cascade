@@ -1,5 +1,5 @@
 ######## Source Clean Data ##############
-source(file="~/Desktop/Data Processing.R")
+source(file="Data Processing.R")
 
 ######## Select Age Groups and Data in 2019 ############
 ### Risk Factors Data
