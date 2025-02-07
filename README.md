@@ -13,6 +13,8 @@ Original data on risk factors, disease prevalence, and death rates are available
 
 
 ### 2. Analysis.R
+- Analysis of Country-specific Sex Differences
+- Stratification of Sex Differences by World Bank income groups and regions
 
 ### 3. Figures.R 
 
