@@ -1,0 +1,1951 @@
+Country	Age	Sex	n	denominator_unconditional	demoninator_conditional	Population	Step	WB
+Kenya	15-29	Women	7	937	937	general	prevalence	LM
+Kenya	30-44	Women	25	989	989	general	prevalence	LM
+Kenya	45-59	Women	31	520	520	general	prevalence	LM
+Kenya	60-79	Women	22	255	255	general	prevalence	LM
+Kenya	15-29	Women	2	7	7	general	tested	LM
+Kenya	30-44	Women	9	25	25	general	tested	LM
+Kenya	45-59	Women	19	31	31	general	tested	LM
+Kenya	60-79	Women	14	22	22	general	tested	LM
+Kenya	15-29	Women	0	7	2	general	diagnosed	LM
+Kenya	30-44	Women	7	25	9	general	diagnosed	LM
+Kenya	45-59	Women	15	31	19	general	diagnosed	LM
+Kenya	60-79	Women	11	22	14	general	diagnosed	LM
+Kenya	15-29	Women	0	7	0	general	treated	LM
+Kenya	30-44	Women	7	25	7	general	treated	LM
+Kenya	45-59	Women	15	31	15	general	treated	LM
+Kenya	60-79	Women	11	22	11	general	treated	LM
+Kenya	15-29	Women	0	7	0	general	controlled	LM
+Kenya	30-44	Women	4	25	7	general	controlled	LM
+Kenya	45-59	Women	10	31	15	general	controlled	LM
+Kenya	60-79	Women	7	22	11	general	controlled	LM
+Kenya	all ages	Women	85	2701	2701	general	prevalence	LM
+Kenya	all ages	Women	44	2701	85	general	tested	LM
+Kenya	all ages	Women	33	2701	44	general	diagnosed	LM
+Kenya	all ages	Women	33	2701	33	general	treated	LM
+Kenya	all ages	Women	21	2701	33	general	controlled	LM
+Kenya	15-29	Men	4	561	561	general	prevalence	LM
+Kenya	30-44	Men	13	724	724	general	prevalence	LM
+Kenya	45-59	Men	12	355	355	general	prevalence	LM
+Kenya	60-79	Men	5	159	159	general	prevalence	LM
+Kenya	15-29	Men	2	4	4	general	tested	LM
+Kenya	30-44	Men	3	13	13	general	tested	LM
+Kenya	45-59	Men	6	12	12	general	tested	LM
+Kenya	60-79	Men	5	5	5	general	tested	LM
+Kenya	15-29	Men	1	4	2	general	diagnosed	LM
+Kenya	30-44	Men	2	13	3	general	diagnosed	LM
+Kenya	45-59	Men	3	12	6	general	diagnosed	LM
+Kenya	60-79	Men	3	5	5	general	diagnosed	LM
+Kenya	15-29	Men	1	4	1	general	treated	LM
+Kenya	30-44	Men	2	13	2	general	treated	LM
+Kenya	45-59	Men	3	12	3	general	treated	LM
+Kenya	60-79	Men	3	5	3	general	treated	LM
+Kenya	15-29	Men	0	4	1	general	controlled	LM
+Kenya	30-44	Men	1	13	2	general	controlled	LM
+Kenya	45-59	Men	0	12	3	general	controlled	LM
+Kenya	60-79	Men	2	5	3	general	controlled	LM
+Kenya	all ages	Men	34	1799	1799	general	prevalence	LM
+Kenya	all ages	Men	16	1799	34	general	tested	LM
+Kenya	all ages	Men	9	1799	16	general	diagnosed	LM
+Kenya	all ages	Men	9	1799	9	general	treated	LM
+Kenya	all ages	Men	3	1799	9	general	controlled	LM
+Armenia	15-29	Women	3	317	317	general	prevalence	LM
+Armenia	30-44	Women	9	470	470	general	prevalence	LM
+Armenia	45-59	Women	37	519	519	general	prevalence	LM
+Armenia	60-79	Women	54	307	307	general	prevalence	LM
+Armenia	15-29	Women	2	3	3	general	tested	LM
+Armenia	30-44	Women	6	9	9	general	tested	LM
+Armenia	45-59	Women	20	37	37	general	tested	LM
+Armenia	60-79	Women	43	54	54	general	tested	LM
+Armenia	15-29	Women	1	3	2	general	diagnosed	LM
+Armenia	30-44	Women	2	9	6	general	diagnosed	LM
+Armenia	45-59	Women	26	37	20	general	diagnosed	LM
+Armenia	60-79	Women	38	54	43	general	diagnosed	LM
+Armenia	15-29	Women	0	3	1	general	treated	LM
+Armenia	30-44	Women	2	9	2	general	treated	LM
+Armenia	45-59	Women	23	37	26	general	treated	LM
+Armenia	60-79	Women	36	54	38	general	treated	LM
+Armenia	15-29	Women	0	3	0	general	controlled	LM
+Armenia	30-44	Women	1	9	2	general	controlled	LM
+Armenia	45-59	Women	10	37	23	general	controlled	LM
+Armenia	60-79	Women	19	54	36	general	controlled	LM
+Armenia	all ages	Women	103	1613	1613	general	prevalence	LM
+Armenia	all ages	Women	81	1613	103	general	tested	LM
+Armenia	all ages	Women	67	1613	81	general	diagnosed	LM
+Armenia	all ages	Women	61	1613	67	general	treated	LM
+Armenia	all ages	Women	30	1613	61	general	controlled	LM
+Armenia	15-29	Men	7	200	200	general	prevalence	LM
+Armenia	30-44	Men	9	177	177	general	prevalence	LM
+Armenia	45-59	Men	19	220	220	general	prevalence	LM
+Armenia	60-79	Men	15	139	139	general	prevalence	LM
+Armenia	15-29	Men	2	7	7	general	tested	LM
+Armenia	30-44	Men	4	9	9	general	tested	LM
+Armenia	45-59	Men	18	19	19	general	tested	LM
+Armenia	60-79	Men	8	15	15	general	tested	LM
+Armenia	15-29	Men	2	7	2	general	diagnosed	LM
+Armenia	30-44	Men	1	9	4	general	diagnosed	LM
+Armenia	45-59	Men	13	19	18	general	diagnosed	LM
+Armenia	60-79	Men	8	15	8	general	diagnosed	LM
+Armenia	15-29	Men	2	7	2	general	treated	LM
+Armenia	30-44	Men	0	9	1	general	treated	LM
+Armenia	45-59	Men	13	19	13	general	treated	LM
+Armenia	60-79	Men	8	15	8	general	treated	LM
+Armenia	15-29	Men	1	7	2	general	controlled	LM
+Armenia	30-44	Men	0	9	0	general	controlled	LM
+Armenia	45-59	Men	8	19	13	general	controlled	LM
+Armenia	60-79	Men	6	15	8	general	controlled	LM
+Armenia	all ages	Men	50	736	736	general	prevalence	LM
+Armenia	all ages	Men	32	736	50	general	tested	LM
+Armenia	all ages	Men	24	736	32	general	diagnosed	LM
+Armenia	all ages	Men	23	736	24	general	treated	LM
+Armenia	all ages	Men	15	736	23	general	controlled	LM
+Azerbaijan	15-29	Women	7	267	267	general	prevalence	UM
+Azerbaijan	30-44	Women	28	473	473	general	prevalence	UM
+Azerbaijan	45-59	Women	83	677	677	general	prevalence	UM
+Azerbaijan	60-79	Women	66	248	248	general	prevalence	UM
+Azerbaijan	15-29	Women	3	7	7	general	tested	UM
+Azerbaijan	30-44	Women	20	28	28	general	tested	UM
+Azerbaijan	45-59	Women	68	83	83	general	tested	UM
+Azerbaijan	60-79	Women	58	66	66	general	tested	UM
+Azerbaijan	15-29	Women	2	7	3	general	diagnosed	UM
+Azerbaijan	30-44	Women	12	28	20	general	diagnosed	UM
+Azerbaijan	45-59	Women	57	83	68	general	diagnosed	UM
+Azerbaijan	60-79	Women	51	66	58	general	diagnosed	UM
+Azerbaijan	15-29	Women	2	7	2	general	treated	UM
+Azerbaijan	30-44	Women	10	28	12	general	treated	UM
+Azerbaijan	45-59	Women	56	83	57	general	treated	UM
+Azerbaijan	60-79	Women	50	66	51	general	treated	UM
+Azerbaijan	15-29	Women	0	7	2	general	controlled	UM
+Azerbaijan	30-44	Women	4	28	10	general	controlled	UM
+Azerbaijan	45-59	Women	29	83	56	general	controlled	UM
+Azerbaijan	60-79	Women	36	66	50	general	controlled	UM
+Azerbaijan	all ages	Women	184	1665	1665	general	prevalence	UM
+Azerbaijan	all ages	Women	149	1665	184	general	tested	UM
+Azerbaijan	all ages	Women	122	1665	149	general	diagnosed	UM
+Azerbaijan	all ages	Women	118	1665	122	general	treated	UM
+Azerbaijan	all ages	Women	69	1665	118	general	controlled	UM
+Azerbaijan	15-29	Men	4	213	213	general	prevalence	UM
+Azerbaijan	30-44	Men	9	312	312	general	prevalence	UM
+Azerbaijan	45-59	Men	47	398	398	general	prevalence	UM
+Azerbaijan	60-79	Men	38	213	213	general	prevalence	UM
+Azerbaijan	15-29	Men	0	4	4	general	tested	UM
+Azerbaijan	30-44	Men	2	9	9	general	tested	UM
+Azerbaijan	45-59	Men	36	47	47	general	tested	UM
+Azerbaijan	60-79	Men	32	38	38	general	tested	UM
+Azerbaijan	15-29	Men	0	4	0	general	diagnosed	UM
+Azerbaijan	30-44	Men	2	9	2	general	diagnosed	UM
+Azerbaijan	45-59	Men	28	47	36	general	diagnosed	UM
+Azerbaijan	60-79	Men	27	38	32	general	diagnosed	UM
+Azerbaijan	15-29	Men	0	4	0	general	treated	UM
+Azerbaijan	30-44	Men	1	9	2	general	treated	UM
+Azerbaijan	45-59	Men	26	47	28	general	treated	UM
+Azerbaijan	60-79	Men	26	38	27	general	treated	UM
+Azerbaijan	15-29	Men	0	4	0	general	controlled	UM
+Azerbaijan	30-44	Men	0	9	1	general	controlled	UM
+Azerbaijan	45-59	Men	16	47	26	general	controlled	UM
+Azerbaijan	60-79	Men	16	38	26	general	controlled	UM
+Azerbaijan	all ages	Men	98	1136	1136	general	prevalence	UM
+Azerbaijan	all ages	Men	70	1136	98	general	tested	UM
+Azerbaijan	all ages	Men	57	1136	70	general	diagnosed	UM
+Azerbaijan	all ages	Men	53	1136	57	general	treated	UM
+Azerbaijan	all ages	Men	32	1136	53	general	controlled	UM
+Afghanistan 	15-29	Women	122	786	786	general	prevalence	L
+Afghanistan 	30-44	Women	123	632	632	general	prevalence	L
+Afghanistan 	45-59	Women	101	385	385	general	prevalence	L
+Afghanistan 	60-79	Women	41	113	113	general	prevalence	L
+Afghanistan 	15-29	Women	16	122	122	general	tested	L
+Afghanistan 	30-44	Women	40	123	123	general	tested	L
+Afghanistan 	45-59	Women	45	101	101	general	tested	L
+Afghanistan 	60-79	Women	17	41	41	general	tested	L
+Afghanistan 	15-29	Women	14	122	16	general	diagnosed	L
+Afghanistan 	30-44	Women	20	123	40	general	diagnosed	L
+Afghanistan 	45-59	Women	37	101	45	general	diagnosed	L
+Afghanistan 	60-79	Women	13	41	17	general	diagnosed	L
+Afghanistan 	15-29	Women	14	122	14	general	treated	L
+Afghanistan 	30-44	Women	20	123	20	general	treated	L
+Afghanistan 	45-59	Women	35	101	37	general	treated	L
+Afghanistan 	60-79	Women	13	41	13	general	treated	L
+Afghanistan 	15-29	Women	3	122	14	general	controlled	L
+Afghanistan 	30-44	Women	9	123	20	general	controlled	L
+Afghanistan 	45-59	Women	13	101	35	general	controlled	L
+Afghanistan 	60-79	Women	2	41	13	general	controlled	L
+Afghanistan 	all ages	Women	386	1916	1916	general	prevalence	L
+Afghanistan 	all ages	Women	119	1916	386	general	tested	L
+Afghanistan 	all ages	Women	85	1916	119	general	diagnosed	L
+Afghanistan 	all ages	Women	83	1916	85	general	treated	L
+Afghanistan 	all ages	Women	27	1916	83	general	controlled	L
+Afghanistan 	15-29	Men	91	712	712	general	prevalence	L
+Afghanistan 	30-44	Men	68	544	544	general	prevalence	L
+Afghanistan 	45-59	Men	91	447	447	general	prevalence	L
+Afghanistan 	60-79	Men	72	305	305	general	prevalence	L
+Afghanistan 	15-29	Men	20	91	91	general	tested	L
+Afghanistan 	30-44	Men	28	68	68	general	tested	L
+Afghanistan 	45-59	Men	49	91	91	general	tested	L
+Afghanistan 	60-79	Men	38	72	72	general	tested	L
+Afghanistan 	15-29	Men	13	91	20	general	diagnosed	L
+Afghanistan 	30-44	Men	23	68	28	general	diagnosed	L
+Afghanistan 	45-59	Men	35	91	49	general	diagnosed	L
+Afghanistan 	60-79	Men	30	72	38	general	diagnosed	L
+Afghanistan 	15-29	Men	12	91	13	general	treated	L
+Afghanistan 	30-44	Men	22	68	23	general	treated	L
+Afghanistan 	45-59	Men	33	91	35	general	treated	L
+Afghanistan 	60-79	Men	29	72	30	general	treated	L
+Afghanistan 	15-29	Men	7	91	12	general	controlled	L
+Afghanistan 	30-44	Men	10	68	22	general	controlled	L
+Afghanistan 	45-59	Men	12	91	33	general	controlled	L
+Afghanistan 	60-79	Men	9	72	29	general	controlled	L
+Afghanistan 	all ages	Men	326	2008	2008	general	prevalence	L
+Afghanistan 	all ages	Men	137	2008	326	general	tested	L
+Afghanistan 	all ages	Men	103	2008	137	general	diagnosed	L
+Afghanistan 	all ages	Men	98	2008	103	general	treated	L
+Afghanistan 	all ages	Men	38	2008	98	general	controlled	L
+Algeria	15-29	Women	55	859	859	general	prevalence	LM
+Algeria	30-44	Women	128	1562	1562	general	prevalence	LM
+Algeria	45-59	Women	196	1021	1021	general	prevalence	LM
+Algeria	60-79	Women	151	465	465	general	prevalence	LM
+Algeria	15-29	Women	32	55	55	general	tested	LM
+Algeria	30-44	Women	83	128	128	general	tested	LM
+Algeria	45-59	Women	172	196	196	general	tested	LM
+Algeria	60-79	Women	139	151	151	general	tested	LM
+Algeria	15-29	Women	15	55	32	general	diagnosed	LM
+Algeria	30-44	Women	52	128	83	general	diagnosed	LM
+Algeria	45-59	Women	137	196	172	general	diagnosed	LM
+Algeria	60-79	Women	118	151	139	general	diagnosed	LM
+Algeria	15-29	Women	15	55	15	general	treated	LM
+Algeria	30-44	Women	51	128	52	general	treated	LM
+Algeria	45-59	Women	134	196	137	general	treated	LM
+Algeria	60-79	Women	116	151	118	general	treated	LM
+Algeria	15-29	Women	2	55	15	general	controlled	LM
+Algeria	30-44	Women	14	128	51	general	controlled	LM
+Algeria	45-59	Women	45	196	134	general	controlled	LM
+Algeria	60-79	Women	33	151	116	general	controlled	LM
+Algeria	all ages	Women	530	3907	3907	general	prevalence	LM
+Algeria	all ages	Women	426	3907	530	general	tested	LM
+Algeria	all ages	Women	322	3907	426	general	diagnosed	LM
+Algeria	all ages	Women	316	3907	322	general	treated	LM
+Algeria	all ages	Women	94	3907	316	general	controlled	LM
+Algeria	15-29	Men	33	649	649	general	prevalence	LM
+Algeria	30-44	Men	79	1185	1185	general	prevalence	LM
+Algeria	45-59	Men	168	908	908	general	prevalence	LM
+Algeria	60-79	Men	88	340	340	general	prevalence	LM
+Algeria	15-29	Men	8	33	33	general	tested	LM
+Algeria	30-44	Men	46	79	79	general	tested	LM
+Algeria	45-59	Men	134	168	168	general	tested	LM
+Algeria	60-79	Men	71	88	88	general	tested	LM
+Algeria	15-29	Men	7	33	8	general	diagnosed	LM
+Algeria	30-44	Men	31	79	46	general	diagnosed	LM
+Algeria	45-59	Men	108	168	134	general	diagnosed	LM
+Algeria	60-79	Men	57	88	71	general	diagnosed	LM
+Algeria	15-29	Men	7	33	7	general	treated	LM
+Algeria	30-44	Men	30	79	31	general	treated	LM
+Algeria	45-59	Men	106	168	108	general	treated	LM
+Algeria	60-79	Men	57	88	57	general	treated	LM
+Algeria	15-29	Men	1	33	7	general	controlled	LM
+Algeria	30-44	Men	11	79	30	general	controlled	LM
+Algeria	45-59	Men	36	168	106	general	controlled	LM
+Algeria	60-79	Men	14	88	57	general	controlled	LM
+Algeria	all ages	Men	368	3082	3082	general	prevalence	LM
+Algeria	all ages	Men	259	3082	368	general	tested	LM
+Algeria	all ages	Men	203	3082	259	general	diagnosed	LM
+Algeria	all ages	Men	200	3082	203	general	treated	LM
+Algeria	all ages	Men	62	3082	200	general	controlled	LM
+Bangladesh	15-29	Women	21	770	770	general	prevalence	LM
+Bangladesh	30-44	Women	105	1539	1539	general	prevalence	LM
+Bangladesh	45-59	Women	165	1126	1126	general	prevalence	LM
+Bangladesh	60-79	Women	71	369	369	general	prevalence	LM
+Bangladesh	15-29	Women	4	21	21	general	tested	LM
+Bangladesh	30-44	Women	63	105	105	general	tested	LM
+Bangladesh	45-59	Women	130	165	165	general	tested	LM
+Bangladesh	60-79	Women	59	71	71	general	tested	LM
+Bangladesh	15-29	Women	0	21	4	general	diagnosed	LM
+Bangladesh	30-44	Women	47	105	63	general	diagnosed	LM
+Bangladesh	45-59	Women	103	165	130	general	diagnosed	LM
+Bangladesh	60-79	Women	49	71	59	general	diagnosed	LM
+Bangladesh	15-29	Women	0	21	0	general	treated	LM
+Bangladesh	30-44	Women	43	105	47	general	treated	LM
+Bangladesh	45-59	Women	91	165	103	general	treated	LM
+Bangladesh	60-79	Women	47	71	49	general	treated	LM
+Bangladesh	15-29	Women	0	21	0	general	controlled	LM
+Bangladesh	30-44	Women	16	105	43	general	controlled	LM
+Bangladesh	45-59	Women	22	165	91	general	controlled	LM
+Bangladesh	60-79	Women	10	71	47	general	controlled	LM
+Bangladesh	all ages	Women	372	3804	3804	general	prevalence	LM
+Bangladesh	all ages	Women	270	3804	372	general	tested	LM
+Bangladesh	all ages	Women	205	3804	270	general	diagnosed	LM
+Bangladesh	all ages	Women	179	3804	205	general	treated	LM
+Bangladesh	all ages	Women	47	3804	179	general	controlled	LM
+Bangladesh	15-29	Men	33	1172	1172	general	prevalence	LM
+Bangladesh	30-44	Men	166	1966	1966	general	prevalence	LM
+Bangladesh	45-59	Men	138	1026	1026	general	prevalence	LM
+Bangladesh	60-79	Men	35	217	217	general	prevalence	LM
+Bangladesh	15-29	Men	12	33	33	general	tested	LM
+Bangladesh	30-44	Men	111	166	166	general	tested	LM
+Bangladesh	45-59	Men	118	138	138	general	tested	LM
+Bangladesh	60-79	Men	29	35	35	general	tested	LM
+Bangladesh	15-29	Men	7	33	12	general	diagnosed	LM
+Bangladesh	30-44	Men	81	166	111	general	diagnosed	LM
+Bangladesh	45-59	Men	94	138	118	general	diagnosed	LM
+Bangladesh	60-79	Men	23	35	29	general	diagnosed	LM
+Bangladesh	15-29	Men	4	33	7	general	treated	LM
+Bangladesh	30-44	Men	69	166	81	general	treated	LM
+Bangladesh	45-59	Men	84	138	94	general	treated	LM
+Bangladesh	60-79	Men	22	35	23	general	treated	LM
+Bangladesh	15-29	Men	2	33	4	general	controlled	LM
+Bangladesh	30-44	Men	13	166	69	general	controlled	LM
+Bangladesh	45-59	Men	25	138	84	general	controlled	LM
+Bangladesh	60-79	Men	7	35	22	general	controlled	LM
+Bangladesh	all ages	Men	372	4381	4381	general	prevalence	LM
+Bangladesh	all ages	Men	270	4381	372	general	tested	LM
+Bangladesh	all ages	Men	205	4381	270	general	diagnosed	LM
+Bangladesh	all ages	Men	179	4381	205	general	treated	LM
+Bangladesh	all ages	Men	47	4381	179	general	controlled	LM
+Belarus	15-29	Women	4	359	359	general	prevalence	H
+Belarus	30-44	Women	18	817	817	general	prevalence	H
+Belarus	45-59	Women	62	1092	1092	general	prevalence	H
+Belarus	60-79	Women	86	655	655	general	prevalence	H
+Belarus	15-29	Women	3	4	4	general	tested	H
+Belarus	30-44	Women	17	18	18	general	tested	H
+Belarus	45-59	Women	59	62	62	general	tested	H
+Belarus	60-79	Women	85	86	86	general	tested	H
+Belarus	15-29	Women	2	4	3	general	diagnosed	H
+Belarus	30-44	Women	11	18	17	general	diagnosed	H
+Belarus	45-59	Women	40	62	59	general	diagnosed	H
+Belarus	60-79	Women	69	86	85	general	diagnosed	H
+Belarus	15-29	Women	2	4	2	general	treated	H
+Belarus	30-44	Women	11	18	11	general	treated	H
+Belarus	45-59	Women	38	62	40	general	treated	H
+Belarus	60-79	Women	65	86	69	general	treated	H
+Belarus	15-29	Women	2	4	2	general	controlled	H
+Belarus	30-44	Women	10	18	11	general	controlled	H
+Belarus	45-59	Women	25	62	38	general	controlled	H
+Belarus	60-79	Women	49	86	65	general	controlled	H
+Belarus	all ages	Women	170	2923	2923	general	prevalence	H
+Belarus	all ages	Women	164	2923	170	general	tested	H
+Belarus	all ages	Women	122	2923	164	general	diagnosed	H
+Belarus	all ages	Women	116	2923	122	general	treated	H
+Belarus	all ages	Women	86	2923	116	general	controlled	H
+Belarus	15-29	Men	3	332	332	general	prevalence	H
+Belarus	30-44	Men	12	592	592	general	prevalence	H
+Belarus	45-59	Men	48	812	812	general	prevalence	H
+Belarus	60-79	Men	40	354	354	general	prevalence	H
+Belarus	15-29	Men	3	3	3	general	tested	H
+Belarus	30-44	Men	11	12	12	general	tested	H
+Belarus	45-59	Men	47	48	48	general	tested	H
+Belarus	60-79	Men	38	40	40	general	tested	H
+Belarus	15-29	Men	1	3	3	general	diagnosed	H
+Belarus	30-44	Men	6	12	11	general	diagnosed	H
+Belarus	45-59	Men	34	48	47	general	diagnosed	H
+Belarus	60-79	Men	32	40	38	general	diagnosed	H
+Belarus	15-29	Men	1	3	1	general	treated	H
+Belarus	30-44	Men	6	12	6	general	treated	H
+Belarus	45-59	Men	32	48	34	general	treated	H
+Belarus	60-79	Men	31	40	32	general	treated	H
+Belarus	15-29	Men	1	3	1	general	controlled	H
+Belarus	30-44	Men	6	12	6	general	controlled	H
+Belarus	45-59	Men	23	48	32	general	controlled	H
+Belarus	60-79	Men	26	40	31	general	controlled	H
+Belarus	all ages	Men	103	2090	2090	general	prevalence	H
+Belarus	all ages	Men	99	2090	103	general	tested	H
+Belarus	all ages	Men	73	2090	99	general	diagnosed	H
+Belarus	all ages	Men	70	2090	73	general	treated	H
+Belarus	all ages	Men	56	2090	70	general	controlled	H
+Benin	15-29	Women	37	969	969	general	prevalence	L
+Benin	30-44	Women	69	1123	1123	general	prevalence	L
+Benin	45-59	Women	60	512	512	general	prevalence	L
+Benin	60-79	Women	24	196	196	general	prevalence	L
+Benin	15-29	Women	1	37	37	general	tested	L
+Benin	30-44	Women	7	69	69	general	tested	L
+Benin	45-59	Women	15	60	60	general	tested	L
+Benin	60-79	Women	3	24	24	general	tested	L
+Benin	15-29	Women	0	37	1	general	diagnosed	L
+Benin	30-44	Women	3	69	7	general	diagnosed	L
+Benin	45-59	Women	10	60	15	general	diagnosed	L
+Benin	60-79	Women	3	24	3	general	diagnosed	L
+Benin	15-29	Women	0	37	0	general	treated	L
+Benin	30-44	Women	2	69	3	general	treated	L
+Benin	45-59	Women	10	60	10	general	treated	L
+Benin	60-79	Women	3	24	3	general	treated	L
+Benin	15-29	Women	0	37	0	general	controlled	L
+Benin	30-44	Women	1	69	2	general	controlled	L
+Benin	45-59	Women	4	60	10	general	controlled	L
+Benin	60-79	Women	1	24	3	general	controlled	L
+Benin	all ages	Women	190	2800	2800	general	prevalence	L
+Benin	all ages	Women	26	2800	190	general	tested	L
+Benin	all ages	Women	16	2800	26	general	diagnosed	L
+Benin	all ages	Women	15	2800	16	general	treated	L
+Benin	all ages	Women	6	2800	15	general	controlled	L
+Benin	15-29	Men	25	665	665	general	prevalence	L
+Benin	30-44	Men	45	886	886	general	prevalence	L
+Benin	45-59	Men	53	564	564	general	prevalence	L
+Benin	60-79	Men	16	211	211	general	prevalence	L
+Benin	15-29	Men	0	25	25	general	tested	L
+Benin	30-44	Men	4	45	45	general	tested	L
+Benin	45-59	Men	13	53	53	general	tested	L
+Benin	60-79	Men	4	16	16	general	tested	L
+Benin	15-29	Men	0	25	0	general	diagnosed	L
+Benin	30-44	Men	2	45	4	general	diagnosed	L
+Benin	45-59	Men	10	53	13	general	diagnosed	L
+Benin	60-79	Men	3	16	4	general	diagnosed	L
+Benin	15-29	Men	0	25	0	general	treated	L
+Benin	30-44	Men	2	45	2	general	treated	L
+Benin	45-59	Men	9	53	10	general	treated	L
+Benin	60-79	Men	3	16	3	general	treated	L
+Benin	15-29	Men	0	25	0	general	controlled	L
+Benin	30-44	Men	0	45	2	general	controlled	L
+Benin	45-59	Men	3	53	9	general	controlled	L
+Benin	60-79	Men	2	16	3	general	controlled	L
+Benin	all ages	Men	139	2326	2326	general	prevalence	L
+Benin	all ages	Men	21	2326	139	general	tested	L
+Benin	all ages	Men	15	2326	21	general	diagnosed	L
+Benin	all ages	Men	14	2326	15	general	treated	L
+Benin	all ages	Men	5	2326	14	general	controlled	L
+Botswana	15-29	Women	8	1003	1003	general	prevalence	UM
+Botswana	30-44	Women	18	930	930	general	prevalence	UM
+Botswana	45-59	Women	43	586	586	general	prevalence	UM
+Botswana	60-79	Women	34	232	232	general	prevalence	UM
+Botswana	15-29	Women	2	8	8	general	tested	UM
+Botswana	30-44	Women	6	18	18	general	tested	UM
+Botswana	45-59	Women	30	43	43	general	tested	UM
+Botswana	60-79	Women	25	34	34	general	tested	UM
+Botswana	15-29	Women	2	8	2	general	diagnosed	UM
+Botswana	30-44	Women	2	18	6	general	diagnosed	UM
+Botswana	45-59	Women	23	43	30	general	diagnosed	UM
+Botswana	60-79	Women	22	34	25	general	diagnosed	UM
+Botswana	15-29	Women	2	8	2	general	treated	UM
+Botswana	30-44	Women	2	18	2	general	treated	UM
+Botswana	45-59	Women	22	43	23	general	treated	UM
+Botswana	60-79	Women	22	34	22	general	treated	UM
+Botswana	15-29	Women	1	8	2	general	controlled	UM
+Botswana	30-44	Women	2	18	2	general	controlled	UM
+Botswana	45-59	Women	13	43	22	general	controlled	UM
+Botswana	60-79	Women	15	34	22	general	controlled	UM
+Botswana	all ages	Women	103	2751	2751	general	prevalence	UM
+Botswana	all ages	Women	63	2751	103	general	tested	UM
+Botswana	all ages	Women	49	2751	63	general	diagnosed	UM
+Botswana	all ages	Women	48	2751	49	general	treated	UM
+Botswana	all ages	Women	31	2751	48	general	controlled	UM
+Botswana	15-29	Men	5	562	562	general	prevalence	UM
+Botswana	30-44	Men	8	420	420	general	prevalence	UM
+Botswana	45-59	Men	16	248	248	general	prevalence	UM
+Botswana	60-79	Men	10	89	89	general	prevalence	UM
+Botswana	15-29	Men	0	5	5	general	tested	UM
+Botswana	30-44	Men	7	8	8	general	tested	UM
+Botswana	45-59	Men	11	16	16	general	tested	UM
+Botswana	60-79	Men	8	10	10	general	tested	UM
+Botswana	15-29	Men	0	5	0	general	diagnosed	UM
+Botswana	30-44	Men	5	8	7	general	diagnosed	UM
+Botswana	45-59	Men	8	16	11	general	diagnosed	UM
+Botswana	60-79	Men	7	10	8	general	diagnosed	UM
+Botswana	15-29	Men	0	5	0	general	treated	UM
+Botswana	30-44	Men	5	8	5	general	treated	UM
+Botswana	45-59	Men	8	16	8	general	treated	UM
+Botswana	60-79	Men	7	10	7	general	treated	UM
+Botswana	15-29	Men	0	5	0	general	controlled	UM
+Botswana	30-44	Men	1	8	5	general	controlled	UM
+Botswana	45-59	Men	3	16	8	general	controlled	UM
+Botswana	60-79	Men	4	10	7	general	controlled	UM
+Botswana	all ages	Men	39	1319	1319	general	prevalence	UM
+Botswana	all ages	Men	26	1319	39	general	tested	UM
+Botswana	all ages	Men	20	1319	26	general	diagnosed	UM
+Botswana	all ages	Men	20	1319	20	general	treated	UM
+Botswana	all ages	Men	8	1319	20	general	controlled	UM
+Brunei	15-29	Women	13	529	529	general	prevalence	H
+Brunei	30-44	Women	46	681	681	general	prevalence	H
+Brunei	45-59	Women	126	647	647	general	prevalence	H
+Brunei	60-79	Women	72	274	274	general	prevalence	H
+Brunei	15-29	Women	11	13	13	general	tested	H
+Brunei	30-44	Women	41	46	46	general	tested	H
+Brunei	45-59	Women	122	126	126	general	tested	H
+Brunei	60-79	Women	70	72	72	general	tested	H
+Brunei	15-29	Women	7	13	11	general	diagnosed	H
+Brunei	30-44	Women	32	46	41	general	diagnosed	H
+Brunei	45-59	Women	115	126	122	general	diagnosed	H
+Brunei	60-79	Women	62	72	70	general	diagnosed	H
+Brunei	15-29	Women	7	13	7	general	treated	H
+Brunei	30-44	Women	32	46	32	general	treated	H
+Brunei	45-59	Women	115	126	115	general	treated	H
+Brunei	60-79	Women	62	72	62	general	treated	H
+Brunei	15-29	Women	2	13	7	general	controlled	H
+Brunei	30-44	Women	7	46	32	general	controlled	H
+Brunei	45-59	Women	47	126	115	general	controlled	H
+Brunei	60-79	Women	24	72	62	general	controlled	H
+Brunei	all ages	Women	257	2131	2131	general	prevalence	H
+Brunei	all ages	Women	244	2131	257	general	tested	H
+Brunei	all ages	Women	216	2131	244	general	diagnosed	H
+Brunei	all ages	Women	216	2131	216	general	treated	H
+Brunei	all ages	Women	80	2131	216	general	controlled	H
+Brunei	15-29	Men	9	455	455	general	prevalence	H
+Brunei	30-44	Men	32	446	446	general	prevalence	H
+Brunei	45-59	Men	103	498	498	general	prevalence	H
+Brunei	60-79	Men	75	278	278	general	prevalence	H
+Brunei	15-29	Men	6	9	9	general	tested	H
+Brunei	30-44	Men	29	32	32	general	tested	H
+Brunei	45-59	Men	102	103	103	general	tested	H
+Brunei	60-79	Men	73	75	75	general	tested	H
+Brunei	15-29	Men	4	9	6	general	diagnosed	H
+Brunei	30-44	Men	24	32	29	general	diagnosed	H
+Brunei	45-59	Men	90	103	102	general	diagnosed	H
+Brunei	60-79	Men	69	75	73	general	diagnosed	H
+Brunei	15-29	Men	4	9	4	general	treated	H
+Brunei	30-44	Men	23	32	24	general	treated	H
+Brunei	45-59	Men	88	103	90	general	treated	H
+Brunei	60-79	Men	69	75	69	general	treated	H
+Brunei	15-29	Men	1	9	4	general	controlled	H
+Brunei	30-44	Men	4	32	23	general	controlled	H
+Brunei	45-59	Men	28	103	88	general	controlled	H
+Brunei	60-79	Men	31	75	69	general	controlled	H
+Brunei	all ages	Men	219	1677	1677	general	prevalence	H
+Brunei	all ages	Men	210	1677	219	general	tested	H
+Brunei	all ages	Men	187	1677	210	general	diagnosed	H
+Brunei	all ages	Men	184	1677	187	general	treated	H
+Brunei	all ages	Men	64	1677	184	general	controlled	H
+Cabo Verde	15-29	Women	4	643	643	general	prevalence	UM
+Cabo Verde	30-44	Women	29	960	960	general	prevalence	UM
+Cabo Verde	45-59	Women	65	722	722	general	prevalence	UM
+Cabo Verde	60-79	Women	56	397	397	general	prevalence	UM
+Cabo Verde	15-29	Women	2	4	4	general	tested	UM
+Cabo Verde	30-44	Women	23	29	29	general	tested	UM
+Cabo Verde	45-59	Women	60	65	65	general	tested	UM
+Cabo Verde	60-79	Women	54	56	56	general	tested	UM
+Cabo Verde	15-29	Women	1	4	2	general	diagnosed	UM
+Cabo Verde	30-44	Women	13	29	23	general	diagnosed	UM
+Cabo Verde	45-59	Women	49	65	60	general	diagnosed	UM
+Cabo Verde	60-79	Women	50	56	54	general	diagnosed	UM
+Cabo Verde	15-29	Women	1	4	1	general	treated	UM
+Cabo Verde	30-44	Women	13	29	13	general	treated	UM
+Cabo Verde	45-59	Women	46	65	49	general	treated	UM
+Cabo Verde	60-79	Women	49	56	50	general	treated	UM
+Cabo Verde	15-29	Women	0	4	1	general	controlled	UM
+Cabo Verde	30-44	Women	2	29	13	general	controlled	UM
+Cabo Verde	45-59	Women	6	65	46	general	controlled	UM
+Cabo Verde	60-79	Women	12	56	49	general	controlled	UM
+Cabo Verde	all ages	Women	154	2722	2722	general	prevalence	UM
+Cabo Verde	all ages	Women	139	2722	154	general	tested	UM
+Cabo Verde	all ages	Women	113	2722	139	general	diagnosed	UM
+Cabo Verde	all ages	Women	109	2722	113	general	treated	UM
+Cabo Verde	all ages	Women	20	2722	109	general	controlled	UM
+Cabo Verde	15-29	Men	4	464	464	general	prevalence	UM
+Cabo Verde	30-44	Men	29	648	648	general	prevalence	UM
+Cabo Verde	45-59	Men	65	517	517	general	prevalence	UM
+Cabo Verde	60-79	Men	56	212	212	general	prevalence	UM
+Cabo Verde	15-29	Men	2	4	4	general	tested	UM
+Cabo Verde	30-44	Men	4	29	29	general	tested	UM
+Cabo Verde	45-59	Men	29	65	65	general	tested	UM
+Cabo Verde	60-79	Men	26	56	56	general	tested	UM
+Cabo Verde	15-29	Men	2	4	2	general	diagnosed	UM
+Cabo Verde	30-44	Men	4	29	4	general	diagnosed	UM
+Cabo Verde	45-59	Men	23	65	29	general	diagnosed	UM
+Cabo Verde	60-79	Men	25	56	26	general	diagnosed	UM
+Cabo Verde	15-29	Men	2	4	2	general	treated	UM
+Cabo Verde	30-44	Men	4	29	4	general	treated	UM
+Cabo Verde	45-59	Men	22	65	23	general	treated	UM
+Cabo Verde	60-79	Men	25	56	25	general	treated	UM
+Cabo Verde	15-29	Men	1	4	2	general	controlled	UM
+Cabo Verde	30-44	Men	0	29	4	general	controlled	UM
+Cabo Verde	45-59	Men	8	65	22	general	controlled	UM
+Cabo Verde	60-79	Men	5	56	25	general	controlled	UM
+Cabo Verde	all ages	Men	70	1841	1841	general	prevalence	UM
+Cabo Verde	all ages	Men	61	1841	70	general	tested	UM
+Cabo Verde	all ages	Men	54	1841	61	general	diagnosed	UM
+Cabo Verde	all ages	Men	53	1841	54	general	treated	UM
+Cabo Verde	all ages	Men	14	1841	53	general	controlled	UM
+Ecuador	15-29	Women	9	681	681	general	prevalence	LM
+Ecuador	30-44	Women	49	976	976	general	prevalence	LM
+Ecuador	45-59	Women	88	689	689	general	prevalence	LM
+Ecuador	60-79	Women	55	348	348	general	prevalence	LM
+Ecuador	15-29	Women	5	9	9	general	tested	LM
+Ecuador	30-44	Women	36	49	49	general	tested	LM
+Ecuador	45-59	Women	65	88	88	general	tested	LM
+Ecuador	60-79	Women	48	55	55	general	tested	LM
+Ecuador	15-29	Women	1	9	5	general	diagnosed	LM
+Ecuador	30-44	Women	17	49	36	general	diagnosed	LM
+Ecuador	45-59	Women	42	88	65	general	diagnosed	LM
+Ecuador	60-79	Women	39	55	48	general	diagnosed	LM
+Ecuador	15-29	Women	1	9	1	general	treated	LM
+Ecuador	30-44	Women	16	49	17	general	treated	LM
+Ecuador	45-59	Women	41	88	42	general	treated	LM
+Ecuador	60-79	Women	37	55	39	general	treated	LM
+Ecuador	15-29	Women	0	9	1	general	controlled	LM
+Ecuador	30-44	Women	5	49	16	general	controlled	LM
+Ecuador	45-59	Women	13	88	41	general	controlled	LM
+Ecuador	60-79	Women	14	55	37	general	controlled	LM
+Ecuador	all ages	Women	201	2694	2694	general	prevalence	LM
+Ecuador	all ages	Women	154	2694	201	general	tested	LM
+Ecuador	all ages	Women	99	2694	99	general	diagnosed	LM
+Ecuador	all ages	Women	95	2694	95	general	treated	LM
+Ecuador	all ages	Women	32	2694	32	general	controlled	LM
+Ecuador	15-29	Men	4	524	524	general	prevalence	LM
+Ecuador	30-44	Men	38	620	620	general	prevalence	LM
+Ecuador	45-59	Men	65	544	544	general	prevalence	LM
+Ecuador	60-79	Men	44	256	256	general	prevalence	LM
+Ecuador	15-29	Men	3	4	4	general	tested	LM
+Ecuador	30-44	Men	27	38	38	general	tested	LM
+Ecuador	45-59	Men	46	65	65	general	tested	LM
+Ecuador	60-79	Men	37	44	44	general	tested	LM
+Ecuador	15-29	Men	0	4	3	general	diagnosed	LM
+Ecuador	30-44	Men	13	38	27	general	diagnosed	LM
+Ecuador	45-59	Men	30	65	46	general	diagnosed	LM
+Ecuador	60-79	Men	30	44	37	general	diagnosed	LM
+Ecuador	15-29	Men	0	4	0	general	treated	LM
+Ecuador	30-44	Men	13	38	13	general	treated	LM
+Ecuador	45-59	Men	30	65	30	general	treated	LM
+Ecuador	60-79	Men	29	44	30	general	treated	LM
+Ecuador	15-29	Men	0	4	0	general	controlled	LM
+Ecuador	30-44	Men	6	38	13	general	controlled	LM
+Ecuador	45-59	Men	10	65	30	general	controlled	LM
+Ecuador	60-79	Men	13	44	29	general	controlled	LM
+Ecuador	all ages	Men	151	1944	1944	general	prevalence	LM
+Ecuador	all ages	Men	113	1944	151	general	tested	LM
+Ecuador	all ages	Men	73	1944	113	general	diagnosed	LM
+Ecuador	all ages	Men	72	1944	73	general	treated	LM
+Ecuador	all ages	Men	29	1944	72	general	controlled	LM
+Eswatini	15-29	Women	14	876	876	general	prevalence	UM
+Eswatini	30-44	Women	29	688	688	general	prevalence	UM
+Eswatini	45-59	Women	50	487	487	general	prevalence	UM
+Eswatini	60-79	Women	44	253	253	general	prevalence	UM
+Eswatini	15-29	Women	1	14	14	general	tested	UM
+Eswatini	30-44	Women	9	29	29	general	tested	UM
+Eswatini	45-59	Women	31	50	50	general	tested	UM
+Eswatini	60-79	Women	25	44	44	general	tested	UM
+Eswatini	15-29	Women	0	14	1	general	diagnosed	UM
+Eswatini	30-44	Women	7	29	9	general	diagnosed	UM
+Eswatini	45-59	Women	21	50	31	general	diagnosed	UM
+Eswatini	60-79	Women	22	44	25	general	diagnosed	UM
+Eswatini	15-29	Women	0	14	0	general	treated	UM
+Eswatini	30-44	Women	7	29	7	general	treated	UM
+Eswatini	45-59	Women	19	50	21	general	treated	UM
+Eswatini	60-79	Women	21	44	22	general	treated	UM
+Eswatini	15-29	Women	0	14	0	general	controlled	UM
+Eswatini	30-44	Women	1	29	7	general	controlled	UM
+Eswatini	45-59	Women	9	50	19	general	controlled	UM
+Eswatini	60-79	Women	10	44	21	general	controlled	UM
+Eswatini	all ages	Women	137	2304	2304	general	prevalence	UM
+Eswatini	all ages	Women	66	2304	137	general	tested	UM
+Eswatini	all ages	Women	50	2304	66	general	diagnosed	UM
+Eswatini	all ages	Women	47	2304	50	general	treated	UM
+Eswatini	all ages	Women	20	2304	47	general	controlled	UM
+Eswatini	15-29	Men	6	567	567	general	prevalence	UM
+Eswatini	30-44	Men	9	325	325	general	prevalence	UM
+Eswatini	45-59	Men	17	218	218	general	prevalence	UM
+Eswatini	60-79	Men	18	120	120	general	prevalence	UM
+Eswatini	15-29	Men	2	6	6	general	tested	UM
+Eswatini	30-44	Men	5	9	9	general	tested	UM
+Eswatini	45-59	Men	13	17	17	general	tested	UM
+Eswatini	60-79	Men	13	18	18	general	tested	UM
+Eswatini	15-29	Men	0	6	2	general	diagnosed	UM
+Eswatini	30-44	Men	3	9	5	general	diagnosed	UM
+Eswatini	45-59	Men	10	17	13	general	diagnosed	UM
+Eswatini	60-79	Men	12	18	13	general	diagnosed	UM
+Eswatini	15-29	Men	0	6	0	general	treated	UM
+Eswatini	30-44	Men	3	9	3	general	treated	UM
+Eswatini	45-59	Men	10	17	10	general	treated	UM
+Eswatini	60-79	Men	12	18	12	general	treated	UM
+Eswatini	15-29	Men	0	6	0	general	controlled	UM
+Eswatini	30-44	Men	3	9	3	general	controlled	UM
+Eswatini	45-59	Men	8	17	10	general	controlled	UM
+Eswatini	60-79	Men	6	18	12	general	controlled	UM
+Eswatini	all ages	Men	50	1230	1230	general	prevalence	UM
+Eswatini	all ages	Men	33	1230	50	general	tested	UM
+Eswatini	all ages	Men	25	1230	33	general	diagnosed	UM
+Eswatini	all ages	Men	25	1230	25	general	treated	UM
+Eswatini	all ages	Men	17	1230	25	general	controlled	UM
+Ethopia	15-29	Women	44	2518	2518	general	prevalence	L
+Ethopia	30-44	Women	49	2061	2061	general	prevalence	L
+Ethopia	45-59	Women	41	909	909	general	prevalence	L
+Ethopia	60-79	Women	25	335	335	general	prevalence	L
+Ethopia	15-29	Women	3	44	44	general	tested	L
+Ethopia	30-44	Women	11	49	49	general	tested	L
+Ethopia	45-59	Women	21	41	41	general	tested	L
+Ethopia	60-79	Women	16	25	25	general	tested	L
+Ethopia	15-29	Women	2	44	3	general	diagnosed	L
+Ethopia	30-44	Women	8	49	11	general	diagnosed	L
+Ethopia	45-59	Women	19	41	21	general	diagnosed	L
+Ethopia	60-79	Women	12	25	16	general	diagnosed	L
+Ethopia	15-29	Women	2	44	2	general	treated	L
+Ethopia	30-44	Women	8	49	8	general	treated	L
+Ethopia	45-59	Women	18	41	19	general	treated	L
+Ethopia	60-79	Women	11	25	12	general	treated	L
+Ethopia	15-29	Women	2	44	2	general	controlled	L
+Ethopia	30-44	Women	1	49	8	general	controlled	L
+Ethopia	45-59	Women	6	41	18	general	controlled	L
+Ethopia	60-79	Women	7	25	11	general	controlled	L
+Ethopia	all ages	Women	159	5823	5823	general	prevalence	L
+Ethopia	all ages	Women	51	5823	159	general	tested	L
+Ethopia	all ages	Women	41	5823	51	general	diagnosed	L
+Ethopia	all ages	Women	39	5823	41	general	treated	L
+Ethopia	all ages	Women	16	5823	39	general	controlled	L
+Ethopia	15-29	Men	28	1441	1441	general	prevalence	L
+Ethopia	30-44	Men	48	1438	1438	general	prevalence	L
+Ethopia	45-59	Men	35	781	781	general	prevalence	L
+Ethopia	60-79	Men	25	317	317	general	prevalence	L
+Ethopia	15-29	Men	2	28	28	general	tested	L
+Ethopia	30-44	Men	9	48	48	general	tested	L
+Ethopia	45-59	Men	13	35	35	general	tested	L
+Ethopia	60-79	Men	13	25	25	general	tested	L
+Ethopia	15-29	Men	2	28	2	general	diagnosed	L
+Ethopia	30-44	Men	6	48	9	general	diagnosed	L
+Ethopia	45-59	Men	13	35	13	general	diagnosed	L
+Ethopia	60-79	Men	10	25	13	general	diagnosed	L
+Ethopia	15-29	Men	2	28	2	general	treated	L
+Ethopia	30-44	Men	4	48	6	general	treated	L
+Ethopia	45-59	Men	13	35	13	general	treated	L
+Ethopia	60-79	Men	10	25	10	general	treated	L
+Ethopia	15-29	Men	1	28	2	general	controlled	L
+Ethopia	30-44	Men	1	48	4	general	controlled	L
+Ethopia	45-59	Men	3	35	13	general	controlled	L
+Ethopia	60-79	Men	4	25	10	general	controlled	L
+Ethopia	all ages	Men	136	3977	3977	general	prevalence	L
+Ethopia	all ages	Men	37	3977	136	general	tested	L
+Ethopia	all ages	Men	31	3977	37	general	diagnosed	L
+Ethopia	all ages	Men	29	3977	31	general	treated	L
+Ethopia	all ages	Men	9	3977	29	general	controlled	L
+Georgia	15-29	Women	1	391	391	general	prevalence	LM
+Georgia	30-44	Women	14	723	723	general	prevalence	LM
+Georgia	45-59	Women	87	1063	1063	general	prevalence	LM
+Georgia	60-79	Women	106	756	756	general	prevalence	LM
+Georgia	15-29	Women	1	1	1	general	tested	LM
+Georgia	30-44	Women	11	14	14	general	tested	LM
+Georgia	45-59	Women	72	87	87	general	tested	LM
+Georgia	60-79	Women	89	106	106	general	tested	LM
+Georgia	15-29	Women	1	1	1	general	diagnosed	LM
+Georgia	30-44	Women	8	14	11	general	diagnosed	LM
+Georgia	45-59	Women	61	87	72	general	diagnosed	LM
+Georgia	60-79	Women	75	106	89	general	diagnosed	LM
+Georgia	15-29	Women	1	1	1	general	treated	LM
+Georgia	30-44	Women	6	14	8	general	treated	LM
+Georgia	45-59	Women	60	87	61	general	treated	LM
+Georgia	60-79	Women	73	106	75	general	treated	LM
+Georgia	15-29	Women	0	1	1	general	controlled	LM
+Georgia	30-44	Women	4	14	6	general	controlled	LM
+Georgia	45-59	Women	30	87	60	general	controlled	LM
+Georgia	60-79	Women	43	106	73	general	controlled	LM
+Georgia	all ages	Women	208	2933	2933	general	prevalence	LM
+Georgia	all ages	Women	173	2933	208	general	tested	LM
+Georgia	all ages	Women	145	2933	173	general	diagnosed	LM
+Georgia	all ages	Women	140	2933	145	general	treated	LM
+Georgia	all ages	Women	77	2933	140	general	controlled	LM
+Georgia	15-29	Men	4	218	218	general	prevalence	LM
+Georgia	30-44	Men	5	327	327	general	prevalence	LM
+Georgia	45-59	Men	50	449	449	general	prevalence	LM
+Georgia	60-79	Men	36	277	277	general	prevalence	LM
+Georgia	15-29	Men	2	4	4	general	tested	LM
+Georgia	30-44	Men	3	5	5	general	tested	LM
+Georgia	45-59	Men	38	50	50	general	tested	LM
+Georgia	60-79	Men	34	36	36	general	tested	LM
+Georgia	15-29	Men	2	4	2	general	diagnosed	LM
+Georgia	30-44	Men	3	5	3	general	diagnosed	LM
+Georgia	45-59	Men	34	50	38	general	diagnosed	LM
+Georgia	60-79	Men	29	36	34	general	diagnosed	LM
+Georgia	15-29	Men	2	4	2	general	treated	LM
+Georgia	30-44	Men	3	5	3	general	treated	LM
+Georgia	45-59	Men	33	50	34	general	treated	LM
+Georgia	60-79	Men	28	36	29	general	treated	LM
+Georgia	15-29	Men	0	4	2	general	controlled	LM
+Georgia	30-44	Men	1	5	3	general	controlled	LM
+Georgia	45-59	Men	20	50	33	general	controlled	LM
+Georgia	60-79	Men	18	36	28	general	controlled	LM
+Georgia	all ages	Men	95	1271	1271	general	prevalence	LM
+Georgia	all ages	Men	77	1271	95	general	tested	LM
+Georgia	all ages	Men	68	1271	77	general	diagnosed	LM
+Georgia	all ages	Men	66	1271	68	general	treated	LM
+Georgia	all ages	Men	39	1271	66	general	controlled	LM
+Guyana	15-29	Women	6	455	455	general	prevalence	LM
+Guyana	30-44	Women	39	545	545	general	prevalence	LM
+Guyana	45-59	Women	78	408	408	general	prevalence	LM
+Guyana	60-79	Women	60	186	186	general	prevalence	LM
+Guyana	15-29	Women	5	6	6	general	tested	LM
+Guyana	30-44	Women	32	39	39	general	tested	LM
+Guyana	45-59	Women	72	78	78	general	tested	LM
+Guyana	60-79	Women	59	60	60	general	tested	LM
+Guyana	15-29	Women	2	6	5	general	diagnosed	LM
+Guyana	30-44	Women	26	39	32	general	diagnosed	LM
+Guyana	45-59	Women	66	78	72	general	diagnosed	LM
+Guyana	60-79	Women	56	60	59	general	diagnosed	LM
+Guyana	15-29	Women	2	6	2	general	treated	LM
+Guyana	30-44	Women	26	39	26	general	treated	LM
+Guyana	45-59	Women	66	78	66	general	treated	LM
+Guyana	60-79	Women	54	60	56	general	treated	LM
+Guyana	15-29	Women	0	6	2	general	controlled	LM
+Guyana	30-44	Women	2	39	26	general	controlled	LM
+Guyana	45-59	Women	11	78	66	general	controlled	LM
+Guyana	60-79	Women	8	60	54	general	controlled	LM
+Guyana	all ages	Women	183	1594	1594	general	prevalence	LM
+Guyana	all ages	Women	168	1594	183	general	tested	LM
+Guyana	all ages	Women	150	1594	168	general	diagnosed	LM
+Guyana	all ages	Women	148	1594	150	general	treated	LM
+Guyana	all ages	Women	21	1594	148	general	controlled	LM
+Guyana	15-29	Men	3	275	275	general	prevalence	LM
+Guyana	30-44	Men	9	326	326	general	prevalence	LM
+Guyana	45-59	Men	47	311	311	general	prevalence	LM
+Guyana	60-79	Men	24	156	156	general	prevalence	LM
+Guyana	15-29	Men	2	3	3	general	tested	LM
+Guyana	30-44	Men	6	9	9	general	tested	LM
+Guyana	45-59	Men	43	47	47	general	tested	LM
+Guyana	60-79	Men	24	24	24	general	tested	LM
+Guyana	15-29	Men	2	3	2	general	diagnosed	LM
+Guyana	30-44	Men	5	9	6	general	diagnosed	LM
+Guyana	45-59	Men	38	47	43	general	diagnosed	LM
+Guyana	60-79	Men	22	24	24	general	diagnosed	LM
+Guyana	15-29	Men	2	3	2	general	treated	LM
+Guyana	30-44	Men	5	9	5	general	treated	LM
+Guyana	45-59	Men	36	47	38	general	treated	LM
+Guyana	60-79	Men	21	24	22	general	treated	LM
+Guyana	15-29	Men	0	3	2	general	controlled	LM
+Guyana	30-44	Men	2	9	5	general	controlled	LM
+Guyana	45-59	Men	5	47	36	general	controlled	LM
+Guyana	60-79	Men	2	24	21	general	controlled	LM
+Guyana	all ages	Men	83	1068	1068	general	prevalence	LM
+Guyana	all ages	Men	75	1068	83	general	tested	LM
+Guyana	all ages	Men	67	1068	75	general	diagnosed	LM
+Guyana	all ages	Men	64	1068	67	general	treated	LM
+Guyana	all ages	Men	9	1068	64	general	controlled	LM
+Iraq	15-29	Women	38	613	613	general	prevalence	UM
+Iraq	30-44	Women	101	948	948	general	prevalence	UM
+Iraq	45-59	Women	146	537	537	general	prevalence	UM
+Iraq	60-79	Women	125	322	322	general	prevalence	UM
+Iraq	15-29	Women	3	38	38	general	tested	UM
+Iraq	30-44	Women	16	101	101	general	tested	UM
+Iraq	45-59	Women	21	146	146	general	tested	UM
+Iraq	60-79	Women	27	125	125	general	tested	UM
+Iraq	15-29	Women	2	38	3	general	diagnosed	UM
+Iraq	30-44	Women	13	101	16	general	diagnosed	UM
+Iraq	45-59	Women	18	146	21	general	diagnosed	UM
+Iraq	60-79	Women	22	125	27	general	diagnosed	UM
+Iraq	15-29	Women	2	38	2	general	treated	UM
+Iraq	30-44	Women	12	101	13	general	treated	UM
+Iraq	45-59	Women	18	146	18	general	treated	UM
+Iraq	60-79	Women	22	125	22	general	treated	UM
+Iraq	15-29	Women	2	38	2	general	controlled	UM
+Iraq	30-44	Women	6	101	12	general	controlled	UM
+Iraq	45-59	Women	6	146	18	general	controlled	UM
+Iraq	60-79	Women	1	125	22	general	controlled	UM
+Iraq	all ages	Women	422	2420	2420	general	prevalence	UM
+Iraq	all ages	Women	71	2420	422	general	tested	UM
+Iraq	all ages	Women	58	2420	71	general	diagnosed	UM
+Iraq	all ages	Women	57	2420	58	general	treated	UM
+Iraq	all ages	Women	15	2420	57	general	controlled	UM
+Iraq	15-29	Men	26	414	414	general	prevalence	UM
+Iraq	30-44	Men	65	500	500	general	prevalence	UM
+Iraq	45-59	Men	117	396	396	general	prevalence	UM
+Iraq	60-79	Men	125	273	273	general	prevalence	UM
+Iraq	15-29	Men	1	26	26	general	tested	UM
+Iraq	30-44	Men	10	65	65	general	tested	UM
+Iraq	45-59	Men	22	117	117	general	tested	UM
+Iraq	60-79	Men	10	125	125	general	tested	UM
+Iraq	15-29	Men	0	26	1	general	diagnosed	UM
+Iraq	30-44	Men	8	65	10	general	diagnosed	UM
+Iraq	45-59	Men	21	117	22	general	diagnosed	UM
+Iraq	60-79	Men	10	125	10	general	diagnosed	UM
+Iraq	15-29	Men	0	26	0	general	treated	UM
+Iraq	30-44	Men	7	65	8	general	treated	UM
+Iraq	45-59	Men	21	117	21	general	treated	UM
+Iraq	60-79	Men	10	125	10	general	treated	UM
+Iraq	15-29	Men	0	26	0	general	controlled	UM
+Iraq	30-44	Men	2	65	7	general	controlled	UM
+Iraq	45-59	Men	6	117	21	general	controlled	UM
+Iraq	60-79	Men	2	125	10	general	controlled	UM
+Iraq	all ages	Men	307	1583	1583	general	prevalence	UM
+Iraq	all ages	Men	44	1583	307	general	tested	UM
+Iraq	all ages	Men	39	1583	44	general	diagnosed	UM
+Iraq	all ages	Men	38	1583	39	general	treated	UM
+Iraq	all ages	Men	10	1583	38	general	controlled	UM
+Jordan	15-29	Women	12	964	964	general	prevalence	LM
+Jordan	30-44	Women	52	1392	1392	general	prevalence	LM
+Jordan	45-59	Women	178	785	785	general	prevalence	LM
+Jordan	60-79	Women	150	369	369	general	prevalence	LM
+Jordan	15-29	Women	7	12	12	general	tested	LM
+Jordan	30-44	Women	47	52	52	general	tested	LM
+Jordan	45-59	Women	165	178	178	general	tested	LM
+Jordan	60-79	Women	146	150	150	general	tested	LM
+Jordan	15-29	Women	6	12	7	general	diagnosed	LM
+Jordan	30-44	Women	42	52	47	general	diagnosed	LM
+Jordan	45-59	Women	149	178	165	general	diagnosed	LM
+Jordan	60-79	Women	143	150	146	general	diagnosed	LM
+Jordan	15-29	Women	6	12	6	general	treated	LM
+Jordan	30-44	Women	40	52	42	general	treated	LM
+Jordan	45-59	Women	149	178	149	general	treated	LM
+Jordan	60-79	Women	142	150	143	general	treated	LM
+Jordan	15-29	Women	3	12	6	general	controlled	LM
+Jordan	30-44	Women	24	52	40	general	controlled	LM
+Jordan	45-59	Women	87	178	149	general	controlled	LM
+Jordan	60-79	Women	77	150	142	general	controlled	LM
+Jordan	all ages	Women	392	3510	3510	general	prevalence	LM
+Jordan	all ages	Women	365	3510	392	general	tested	LM
+Jordan	all ages	Women	340	3510	365	general	diagnosed	LM
+Jordan	all ages	Women	337	3510	340	general	treated	LM
+Jordan	all ages	Women	191	3510	337	general	controlled	LM
+Jordan	15-29	Men	7	638	638	general	prevalence	LM
+Jordan	30-44	Men	45	754	754	general	prevalence	LM
+Jordan	45-59	Men	114	554	554	general	prevalence	LM
+Jordan	60-79	Men	90	257	257	general	prevalence	LM
+Jordan	15-29	Men	4	7	7	general	tested	LM
+Jordan	30-44	Men	41	45	45	general	tested	LM
+Jordan	45-59	Men	104	114	114	general	tested	LM
+Jordan	60-79	Men	88	90	90	general	tested	LM
+Jordan	15-29	Men	4	7	4	general	diagnosed	LM
+Jordan	30-44	Men	38	45	41	general	diagnosed	LM
+Jordan	45-59	Men	97	114	104	general	diagnosed	LM
+Jordan	60-79	Men	83	90	88	general	diagnosed	LM
+Jordan	15-29	Men	4	7	4	general	treated	LM
+Jordan	30-44	Men	38	45	38	general	treated	LM
+Jordan	45-59	Men	95	114	97	general	treated	LM
+Jordan	60-79	Men	81	90	83	general	treated	LM
+Jordan	15-29	Men	2	7	4	general	controlled	LM
+Jordan	30-44	Men	16	45	38	general	controlled	LM
+Jordan	45-59	Men	48	114	95	general	controlled	LM
+Jordan	60-79	Men	49	90	81	general	controlled	LM
+Jordan	all ages	Men	256	2203	2203	general	prevalence	LM
+Jordan	all ages	Men	237	2203	256	general	tested	LM
+Jordan	all ages	Men	222	2203	237	general	diagnosed	LM
+Jordan	all ages	Men	218	2203	222	general	treated	LM
+Jordan	all ages	Men	115	2203	218	general	controlled	LM
+Kiribati	15-29	Women	7	361	361	general	prevalence	L
+Kiribati	30-44	Women	54	435	435	general	prevalence	L
+Kiribati	45-59	Women	62	267	267	general	prevalence	L
+Kiribati	60-79	Women	24	107	107	general	prevalence	L
+Kiribati	15-29	Women	4	7	7	general	tested	L
+Kiribati	30-44	Women	29	54	54	general	tested	L
+Kiribati	45-59	Women	41	62	62	general	tested	L
+Kiribati	60-79	Women	14	24	24	general	tested	L
+Kiribati	15-29	Women	3	7	4	general	diagnosed	L
+Kiribati	30-44	Women	24	54	29	general	diagnosed	L
+Kiribati	45-59	Women	27	62	41	general	diagnosed	L
+Kiribati	60-79	Women	10	24	14	general	diagnosed	L
+Kiribati	15-29	Women	2	7	3	general	treated	L
+Kiribati	30-44	Women	24	54	24	general	treated	L
+Kiribati	45-59	Women	25	62	27	general	treated	L
+Kiribati	60-79	Women	10	24	10	general	treated	L
+Kiribati	15-29	Women	1	7	2	general	controlled	L
+Kiribati	30-44	Women	10	54	24	general	controlled	L
+Kiribati	45-59	Women	7	62	25	general	controlled	L
+Kiribati	60-79	Women	4	24	10	general	controlled	L
+Kiribati	all ages	Women	146	1170	1170	general	prevalence	L
+Kiribati	all ages	Women	88	1170	146	general	tested	L
+Kiribati	all ages	Women	64	1170	88	general	diagnosed	L
+Kiribati	all ages	Women	61	1170	64	general	treated	L
+Kiribati	all ages	Women	22	1170	61	general	controlled	L
+Kiribati	15-29	Men	14	321	321	general	prevalence	L
+Kiribati	30-44	Men	39	335	335	general	prevalence	L
+Kiribati	45-59	Men	40	260	260	general	prevalence	L
+Kiribati	60-79	Men	16	70	70	general	prevalence	L
+Kiribati	15-29	Men	5	14	14	general	tested	L
+Kiribati	30-44	Men	24	39	39	general	tested	L
+Kiribati	45-59	Men	28	40	40	general	tested	L
+Kiribati	60-79	Men	7	16	16	general	tested	L
+Kiribati	15-29	Men	3	14	5	general	diagnosed	L
+Kiribati	30-44	Men	12	39	24	general	diagnosed	L
+Kiribati	45-59	Men	19	40	28	general	diagnosed	L
+Kiribati	60-79	Men	4	16	7	general	diagnosed	L
+Kiribati	15-29	Men	3	14	3	general	treated	L
+Kiribati	30-44	Men	11	39	12	general	treated	L
+Kiribati	45-59	Men	18	40	19	general	treated	L
+Kiribati	60-79	Men	4	16	4	general	treated	L
+Kiribati	15-29	Men	2	14	3	general	controlled	L
+Kiribati	30-44	Men	3	39	11	general	controlled	L
+Kiribati	45-59	Men	6	40	18	general	controlled	L
+Kiribati	60-79	Men	0	16	4	general	controlled	L
+Kiribati	all ages	Men	109	986	986	general	prevalence	L
+Kiribati	all ages	Men	64	986	109	general	tested	L
+Kiribati	all ages	Men	38	986	64	general	diagnosed	L
+Kiribati	all ages	Men	36	986	38	general	treated	L
+Kiribati	all ages	Men	11	986	36	general	controlled	L
+Kuwait	15-29	Women	26	781	781	general	prevalence	UM
+Kuwait	30-44	Women	78	1014	1014	general	prevalence	UM
+Kuwait	45-59	Women	146	531	531	general	prevalence	UM
+Kuwait	60-79	Women	69	134	134	general	prevalence	UM
+Kuwait	15-29	Women	25	26	26	general	tested	UM
+Kuwait	30-44	Women	73	78	78	general	tested	UM
+Kuwait	45-59	Women	141	146	146	general	tested	UM
+Kuwait	60-79	Women	66	69	69	general	tested	UM
+Kuwait	15-29	Women	14	26	25	general	diagnosed	UM
+Kuwait	30-44	Women	48	78	73	general	diagnosed	UM
+Kuwait	45-59	Women	120	146	141	general	diagnosed	UM
+Kuwait	60-79	Women	61	69	66	general	diagnosed	UM
+Kuwait	15-29	Women	14	26	14	general	treated	UM
+Kuwait	30-44	Women	48	78	48	general	treated	UM
+Kuwait	45-59	Women	118	146	120	general	treated	UM
+Kuwait	60-79	Women	61	69	61	general	treated	UM
+Kuwait	15-29	Women	6	26	14	general	controlled	UM
+Kuwait	30-44	Women	22	78	48	general	controlled	UM
+Kuwait	45-59	Women	55	146	118	general	controlled	UM
+Kuwait	60-79	Women	28	69	61	general	controlled	UM
+Kuwait	all ages	Women	319	2460	2460	general	prevalence	UM
+Kuwait	all ages	Women	305	2460	319	general	tested	UM
+Kuwait	all ages	Women	243	2460	305	general	diagnosed	UM
+Kuwait	all ages	Women	241	2460	243	general	treated	UM
+Kuwait	all ages	Women	111	2460	241	general	controlled	UM
+Kuwait	15-29	Men	28	525	525	general	prevalence	UM
+Kuwait	30-44	Men	57	507	507	general	prevalence	UM
+Kuwait	45-59	Men	113	347	347	general	prevalence	UM
+Kuwait	60-79	Men	39	79	79	general	prevalence	UM
+Kuwait	15-29	Men	25	28	28	general	tested	UM
+Kuwait	30-44	Men	49	57	57	general	tested	UM
+Kuwait	45-59	Men	107	113	113	general	tested	UM
+Kuwait	60-79	Men	36	39	39	general	tested	UM
+Kuwait	15-29	Men	15	28	25	general	diagnosed	UM
+Kuwait	30-44	Men	31	57	49	general	diagnosed	UM
+Kuwait	45-59	Men	85	113	107	general	diagnosed	UM
+Kuwait	60-79	Men	35	39	36	general	diagnosed	UM
+Kuwait	15-29	Men	15	28	15	general	treated	UM
+Kuwait	30-44	Men	31	57	31	general	treated	UM
+Kuwait	45-59	Men	85	113	85	general	treated	UM
+Kuwait	60-79	Men	35	39	35	general	treated	UM
+Kuwait	15-29	Men	6	28	15	general	controlled	UM
+Kuwait	30-44	Men	14	57	31	general	controlled	UM
+Kuwait	45-59	Men	40	113	85	general	controlled	UM
+Kuwait	60-79	Men	18	39	35	general	controlled	UM
+Kuwait	all ages	Men	237	1458	1458	general	prevalence	UM
+Kuwait	all ages	Men	217	1458	237	general	tested	UM
+Kuwait	all ages	Men	166	1458	217	general	diagnosed	UM
+Kuwait	all ages	Men	166	1458	166	general	treated	UM
+Kuwait	all ages	Men	78	1458	166	general	controlled	UM
+Kyrgyzstan	15-29	Women	1	256	256	general	prevalence	LM
+Kyrgyzstan	30-44	Women	18	619	619	general	prevalence	LM
+Kyrgyzstan	45-59	Women	56	624	624	general	prevalence	LM
+Kyrgyzstan	60-79	Women	24	178	178	general	prevalence	LM
+Kyrgyzstan	15-29	Women	1	1	1	general	tested	LM
+Kyrgyzstan	30-44	Women	3	18	18	general	tested	LM
+Kyrgyzstan	45-59	Women	40	56	56	general	tested	LM
+Kyrgyzstan	60-79	Women	18	24	24	general	tested	LM
+Kyrgyzstan	15-29	Women	1	1	1	general	diagnosed	LM
+Kyrgyzstan	30-44	Women	2	18	3	general	diagnosed	LM
+Kyrgyzstan	45-59	Women	35	56	40	general	diagnosed	LM
+Kyrgyzstan	60-79	Women	14	24	18	general	diagnosed	LM
+Kyrgyzstan	15-29	Women	1	1	1	general	treated	LM
+Kyrgyzstan	30-44	Women	2	18	2	general	treated	LM
+Kyrgyzstan	45-59	Women	35	56	35	general	treated	LM
+Kyrgyzstan	60-79	Women	14	24	14	general	treated	LM
+Kyrgyzstan	15-29	Women	0	1	1	general	controlled	LM
+Kyrgyzstan	30-44	Women	2	18	2	general	controlled	LM
+Kyrgyzstan	45-59	Women	19	56	35	general	controlled	LM
+Kyrgyzstan	60-79	Women	6	24	14	general	controlled	LM
+Kyrgyzstan	all ages	Women	99	1677	1677	general	prevalence	LM
+Kyrgyzstan	all ages	Women	62	1677	99	general	tested	LM
+Kyrgyzstan	all ages	Women	52	1677	62	general	diagnosed	LM
+Kyrgyzstan	all ages	Women	52	1677	52	general	treated	LM
+Kyrgyzstan	all ages	Women	27	1677	52	general	controlled	LM
+Kyrgyzstan	15-29	Men	1	134	134	general	prevalence	LM
+Kyrgyzstan	30-44	Men	14	343	343	general	prevalence	LM
+Kyrgyzstan	45-59	Men	32	388	388	general	prevalence	LM
+Kyrgyzstan	60-79	Men	9	81	81	general	prevalence	LM
+Kyrgyzstan	15-29	Men	0	1	1	general	tested	LM
+Kyrgyzstan	30-44	Men	5	14	14	general	tested	LM
+Kyrgyzstan	45-59	Men	20	32	32	general	tested	LM
+Kyrgyzstan	60-79	Men	5	9	9	general	tested	LM
+Kyrgyzstan	15-29	Men	0	1	0	general	diagnosed	LM
+Kyrgyzstan	30-44	Men	3	14	5	general	diagnosed	LM
+Kyrgyzstan	45-59	Men	16	32	20	general	diagnosed	LM
+Kyrgyzstan	60-79	Men	4	9	5	general	diagnosed	LM
+Kyrgyzstan	15-29	Men	0	1	0	general	treated	LM
+Kyrgyzstan	30-44	Men	3	14	3	general	treated	LM
+Kyrgyzstan	45-59	Men	16	32	16	general	treated	LM
+Kyrgyzstan	60-79	Men	4	9	4	general	treated	LM
+Kyrgyzstan	15-29	Men	0	1	0	general	controlled	LM
+Kyrgyzstan	30-44	Men	1	14	3	general	controlled	LM
+Kyrgyzstan	45-59	Men	7	32	16	general	controlled	LM
+Kyrgyzstan	60-79	Men	2	9	4	general	controlled	LM
+Kyrgyzstan	all ages	Men	56	946	946	general	prevalence	LM
+Kyrgyzstan	all ages	Men	30	946	56	general	tested	LM
+Kyrgyzstan	all ages	Men	23	946	30	general	diagnosed	LM
+Kyrgyzstan	all ages	Men	23	946	23	general	treated	LM
+Kyrgyzstan	all ages	Men	10	946	23	general	controlled	LM
+Lebanon	15-29	Women	6	964	964	general	prevalence	UM
+Lebanon	30-44	Women	39	1392	1392	general	prevalence	UM
+Lebanon	45-59	Women	145	785	785	general	prevalence	UM
+Lebanon	60-79	Women	142	369	369	general	prevalence	UM
+Lebanon	15-29	Women	6	6	6	general	tested	UM
+Lebanon	30-44	Women	39	39	39	general	tested	UM
+Lebanon	45-59	Women	145	145	145	general	tested	UM
+Lebanon	60-79	Women	142	142	142	general	tested	UM
+Lebanon	15-29	Women	6	6	6	general	diagnosed	UM
+Lebanon	30-44	Women	39	39	39	general	diagnosed	UM
+Lebanon	45-59	Women	145	145	145	general	diagnosed	UM
+Lebanon	60-79	Women	142	142	142	general	diagnosed	UM
+Lebanon	15-29	Women	6	6	6	general	treated	UM
+Lebanon	30-44	Women	39	39	39	general	treated	UM
+Lebanon	45-59	Women	145	145	145	general	treated	UM
+Lebanon	60-79	Women	142	142	142	general	treated	UM
+Lebanon	15-29	Women	3	6	6	general	controlled	UM
+Lebanon	30-44	Women	28	39	39	general	controlled	UM
+Lebanon	45-59	Women	111	145	145	general	controlled	UM
+Lebanon	60-79	Women	108	142	142	general	controlled	UM
+Lebanon	all ages	Women	332	1103	1103	general	prevalence	UM
+Lebanon	all ages	Women	332	1103	332	general	tested	UM
+Lebanon	all ages	Women	332	1103	332	general	diagnosed	UM
+Lebanon	all ages	Women	332	1103	332	general	treated	UM
+Lebanon	all ages	Women	250	1103	332	general	controlled	UM
+Lebanon	15-29	Men	4	638	638	general	prevalence	UM
+Lebanon	30-44	Men	37	754	754	general	prevalence	UM
+Lebanon	45-59	Men	94	554	554	general	prevalence	UM
+Lebanon	60-79	Men	81	257	257	general	prevalence	UM
+Lebanon	15-29	Men	4	4	4	general	tested	UM
+Lebanon	30-44	Men	37	37	37	general	tested	UM
+Lebanon	45-59	Men	94	94	94	general	tested	UM
+Lebanon	60-79	Men	81	81	81	general	tested	UM
+Lebanon	15-29	Men	4	4	4	general	diagnosed	UM
+Lebanon	30-44	Men	37	37	37	general	diagnosed	UM
+Lebanon	45-59	Men	94	94	94	general	diagnosed	UM
+Lebanon	60-79	Men	81	81	81	general	diagnosed	UM
+Lebanon	15-29	Men	4	4	4	general	treated	UM
+Lebanon	30-44	Men	37	37	37	general	treated	UM
+Lebanon	45-59	Men	94	94	94	general	treated	UM
+Lebanon	60-79	Men	81	81	81	general	treated	UM
+Lebanon	15-29	Men	3	4	4	general	controlled	UM
+Lebanon	30-44	Men	20	37	37	general	controlled	UM
+Lebanon	45-59	Men	60	94	94	general	controlled	UM
+Lebanon	60-79	Men	62	81	81	general	controlled	UM
+Lebanon	all ages	Men	216	796	796	general	prevalence	UM
+Lebanon	all ages	Men	216	796	216	general	tested	UM
+Lebanon	all ages	Men	216	796	216	general	diagnosed	UM
+Lebanon	all ages	Men	216	796	216	general	treated	UM
+Lebanon	all ages	Men	145	796	216	general	controlled	UM
+Malawi	15-29	Women	11	922	922	general	prevalence	L
+Malawi	30-44	Women	26	980	980	general	prevalence	L
+Malawi	45-59	Women	12	531	531	general	prevalence	L
+Malawi	60-79	Women	12	269	269	general	prevalence	L
+Malawi	15-29	Women	1	11	11	general	tested	L
+Malawi	30-44	Women	4	26	26	general	tested	L
+Malawi	45-59	Women	6	12	12	general	tested	L
+Malawi	60-79	Women	8	12	12	general	tested	L
+Malawi	15-29	Women	1	11	1	general	diagnosed	L
+Malawi	30-44	Women	4	26	4	general	diagnosed	L
+Malawi	45-59	Women	6	12	6	general	diagnosed	L
+Malawi	60-79	Women	5	12	8	general	diagnosed	L
+Malawi	15-29	Women	1	11	1	general	treated	L
+Malawi	30-44	Women	4	26	4	general	treated	L
+Malawi	45-59	Women	6	12	6	general	treated	L
+Malawi	60-79	Women	5	12	5	general	treated	L
+Malawi	15-29	Women	0	11	1	general	controlled	L
+Malawi	30-44	Women	2	26	4	general	controlled	L
+Malawi	45-59	Women	4	12	6	general	controlled	L
+Malawi	60-79	Women	3	12	5	general	controlled	L
+Malawi	all ages	Women	61	2707	2707	general	prevalence	L
+Malawi	all ages	Women	19	2707	61	general	tested	L
+Malawi	all ages	Women	16	2707	19	general	diagnosed	L
+Malawi	all ages	Women	16	2707	16	general	treated	L
+Malawi	all ages	Women	9	2707	16	general	controlled	L
+Malawi	15-29	Men	4	449	449	general	prevalence	L
+Malawi	30-44	Men	12	568	568	general	prevalence	L
+Malawi	45-59	Men	5	324	324	general	prevalence	L
+Malawi	60-79	Men	12	144	144	general	prevalence	L
+Malawi	15-29	Men	0	4	4	general	tested	L
+Malawi	30-44	Men	2	12	12	general	tested	L
+Malawi	45-59	Men	0	5	5	general	tested	L
+Malawi	60-79	Men	10	12	12	general	tested	L
+Malawi	15-29	Men	0	4	0	general	diagnosed	L
+Malawi	30-44	Men	1	12	2	general	diagnosed	L
+Malawi	45-59	Men	0	5	0	general	diagnosed	L
+Malawi	60-79	Men	8	12	10	general	diagnosed	L
+Malawi	15-29	Men	0	4	0	general	treated	L
+Malawi	30-44	Men	1	12	1	general	treated	L
+Malawi	45-59	Men	0	5	0	general	treated	L
+Malawi	60-79	Men	8	12	8	general	treated	L
+Malawi	15-29	Men	0	4	0	general	controlled	L
+Malawi	30-44	Men	1	12	1	general	controlled	L
+Malawi	45-59	Men	0	5	0	general	controlled	L
+Malawi	60-79	Men	5	12	8	general	controlled	L
+Malawi	all ages	Men	33	1485	1485	general	prevalence	L
+Malawi	all ages	Men	12	1485	33	general	tested	L
+Malawi	all ages	Men	9	1485	12	general	diagnosed	L
+Malawi	all ages	Men	9	1485	9	general	treated	L
+Malawi	all ages	Men	6	1485	9	general	controlled	L
+Morocco	15-29	Women	23	722	722	general	prevalence	LM
+Morocco	30-44	Women	104	1228	1228	general	prevalence	LM
+Morocco	45-59	Women	200	961	961	general	prevalence	LM
+Morocco	60-79	Women	169	563	563	general	prevalence	LM
+Morocco	15-29	Women	10	10	10	general	tested	LM
+Morocco	30-44	Women	61	61	61	general	tested	LM
+Morocco	45-59	Women	159	159	159	general	tested	LM
+Morocco	60-79	Women	140	140	140	general	tested	LM
+Morocco	15-29	Women	4	10	10	general	diagnosed	LM
+Morocco	30-44	Women	35	61	61	general	diagnosed	LM
+Morocco	45-59	Women	120	159	159	general	diagnosed	LM
+Morocco	60-79	Women	106	140	140	general	diagnosed	LM
+Morocco	15-29	Women	4	10	4	general	treated	LM
+Morocco	30-44	Women	34	61	35	general	treated	LM
+Morocco	45-59	Women	115	159	120	general	treated	LM
+Morocco	60-79	Women	103	140	106	general	treated	LM
+Morocco	15-29	Women	1	10	4	general	controlled	LM
+Morocco	30-44	Women	7	61	34	general	controlled	LM
+Morocco	45-59	Women	26	159	115	general	controlled	LM
+Morocco	60-79	Women	30	140	103	general	controlled	LM
+Morocco	all ages	Women	510	3538	3538	general	prevalence	LM
+Morocco	all ages	Women	380	3538	510	general	tested	LM
+Morocco	all ages	Women	271	3538	380	general	diagnosed	LM
+Morocco	all ages	Women	262	3538	271	general	treated	LM
+Morocco	all ages	Women	65	3538	262	general	controlled	LM
+Morocco	15-29	Men	10	339	339	general	prevalence	LM
+Morocco	30-44	Men	28	516	516	general	prevalence	LM
+Morocco	45-59	Men	67	537	537	general	prevalence	LM
+Morocco	60-79	Men	105	438	438	general	prevalence	LM
+Morocco	15-29	Men	3	10	10	general	tested	LM
+Morocco	30-44	Men	14	28	28	general	tested	LM
+Morocco	45-59	Men	42	67	67	general	tested	LM
+Morocco	60-79	Men	83	105	105	general	tested	LM
+Morocco	15-29	Men	2	10	3	general	diagnosed	LM
+Morocco	30-44	Men	11	28	14	general	diagnosed	LM
+Morocco	45-59	Men	40	67	42	general	diagnosed	LM
+Morocco	60-79	Men	66	105	83	general	diagnosed	LM
+Morocco	15-29	Men	2	10	2	general	treated	LM
+Morocco	30-44	Men	10	28	11	general	treated	LM
+Morocco	45-59	Men	38	67	40	general	treated	LM
+Morocco	60-79	Men	66	105	66	general	treated	LM
+Morocco	15-29	Men	1	10	2	general	controlled	LM
+Morocco	30-44	Men	2	28	10	general	controlled	LM
+Morocco	45-59	Men	11	67	38	general	controlled	LM
+Morocco	60-79	Men	25	105	66	general	controlled	LM
+Morocco	all ages	Men	224	1891	1891	general	prevalence	LM
+Morocco	all ages	Men	153	1891	224	general	tested	LM
+Morocco	all ages	Men	128	1891	153	general	diagnosed	LM
+Morocco	all ages	Men	125	1891	128	general	treated	LM
+Morocco	all ages	Men	41	1891	125	general	controlled	LM
+Myanmmar	15-29	Women	6	497	497	general	prevalence	L
+Myanmmar	30-44	Women	99	2112	2112	general	prevalence	L
+Myanmmar	45-59	Women	285	2219	2219	general	prevalence	L
+Myanmmar	60-79	Women	105	551	551	general	prevalence	L
+Myanmmar	15-29	Women	2	6	6	general	tested	L
+Myanmmar	30-44	Women	58	99	99	general	tested	L
+Myanmmar	45-59	Women	221	285	285	general	tested	L
+Myanmmar	60-79	Women	76	105	105	general	tested	L
+Myanmmar	15-29	Women	2	6	2	general	diagnosed	L
+Myanmmar	30-44	Women	52	99	58	general	diagnosed	L
+Myanmmar	45-59	Women	197	285	221	general	diagnosed	L
+Myanmmar	60-79	Women	71	105	76	general	diagnosed	L
+Myanmmar	15-29	Women	2	6	2	general	treated	L
+Myanmmar	30-44	Women	51	99	52	general	treated	L
+Myanmmar	45-59	Women	191	285	197	general	treated	L
+Myanmmar	60-79	Women	69	105	71	general	treated	L
+Myanmmar	15-29	Women	2	6	2	general	controlled	L
+Myanmmar	30-44	Women	8	99	51	general	controlled	L
+Myanmmar	45-59	Women	57	285	191	general	controlled	L
+Myanmmar	60-79	Women	19	105	69	general	controlled	L
+Myanmmar	all ages	Women	495	5379	5379	general	prevalence	L
+Myanmmar	all ages	Women	357	5379	495	general	tested	L
+Myanmmar	all ages	Women	322	5379	357	general	diagnosed	L
+Myanmmar	all ages	Women	313	5379	322	general	treated	L
+Myanmmar	all ages	Women	86	5379	313	general	controlled	L
+Myanmmar	15-29	Men	5	299	299	general	prevalence	L
+Myanmmar	30-44	Men	34	1046	1046	general	prevalence	L
+Myanmmar	45-59	Men	79	1219	1219	general	prevalence	L
+Myanmmar	60-79	Men	26	328	328	general	prevalence	L
+Myanmmar	15-29	Men	1	5	5	general	tested	L
+Myanmmar	30-44	Men	18	34	34	general	tested	L
+Myanmmar	45-59	Men	55	79	79	general	tested	L
+Myanmmar	60-79	Men	22	26	26	general	tested	L
+Myanmmar	15-29	Men	1	5	1	general	diagnosed	L
+Myanmmar	30-44	Men	18	34	18	general	diagnosed	L
+Myanmmar	45-59	Men	46	79	55	general	diagnosed	L
+Myanmmar	60-79	Men	18	26	22	general	diagnosed	L
+Myanmmar	15-29	Men	1	5	1	general	treated	L
+Myanmmar	30-44	Men	15	34	18	general	treated	L
+Myanmmar	45-59	Men	44	79	46	general	treated	L
+Myanmmar	60-79	Men	16	26	18	general	treated	L
+Myanmmar	15-29	Men	1	5	1	general	controlled	L
+Myanmmar	30-44	Men	5	34	15	general	controlled	L
+Myanmmar	45-59	Men	19	79	44	general	controlled	L
+Myanmmar	60-79	Men	5	26	16	general	controlled	L
+Myanmmar	all ages	Men	144	2892	2892	general	prevalence	L
+Myanmmar	all ages	Men	96	2892	144	general	tested	L
+Myanmmar	all ages	Men	83	2892	96	general	diagnosed	L
+Myanmmar	all ages	Men	76	2892	83	general	treated	L
+Myanmmar	all ages	Men	30	2892	76	general	controlled	L
+Nauru	15-29	Women	14	266	266	general	prevalence	LM
+Nauru	30-44	Women	41	276	276	general	prevalence	LM
+Nauru	45-59	Women	49	148	148	general	prevalence	LM
+Nauru	60-79	Women	15	45	45	general	prevalence	LM
+Nauru	15-29	Women	10	14	14	general	tested	LM
+Nauru	30-44	Women	35	41	41	general	tested	LM
+Nauru	45-59	Women	43	49	49	general	tested	LM
+Nauru	60-79	Women	13	15	15	general	tested	LM
+Nauru	15-29	Women	8	14	10	general	diagnosed	LM
+Nauru	30-44	Women	31	41	35	general	diagnosed	LM
+Nauru	45-59	Women	38	49	43	general	diagnosed	LM
+Nauru	60-79	Women	10	15	13	general	diagnosed	LM
+Nauru	15-29	Women	6	14	8	general	treated	LM
+Nauru	30-44	Women	27	41	31	general	treated	LM
+Nauru	45-59	Women	34	49	38	general	treated	LM
+Nauru	60-79	Women	10	15	10	general	treated	LM
+Nauru	15-29	Women	2	14	6	general	controlled	LM
+Nauru	30-44	Women	9	41	27	general	controlled	LM
+Nauru	45-59	Women	17	49	34	general	controlled	LM
+Nauru	60-79	Women	6	15	10	general	controlled	LM
+Nauru	all ages	Women	119	735	735	general	prevalence	LM
+Nauru	all ages	Women	101	735	119	general	tested	LM
+Nauru	all ages	Women	87	735	101	general	diagnosed	LM
+Nauru	all ages	Women	77	735	87	general	treated	LM
+Nauru	all ages	Women	34	735	77	general	controlled	LM
+Nauru	15-29	Men	9	271	271	general	prevalence	LM
+Nauru	30-44	Men	32	230	230	general	prevalence	LM
+Nauru	45-59	Men	36	123	123	general	prevalence	LM
+Nauru	60-79	Men	1	28	28	general	prevalence	LM
+Nauru	15-29	Men	6	9	9	general	tested	LM
+Nauru	30-44	Men	24	32	32	general	tested	LM
+Nauru	45-59	Men	33	36	36	general	tested	LM
+Nauru	60-79	Men	1	1	1	general	tested	LM
+Nauru	15-29	Men	3	9	6	general	diagnosed	LM
+Nauru	30-44	Men	17	32	24	general	diagnosed	LM
+Nauru	45-59	Men	26	36	33	general	diagnosed	LM
+Nauru	60-79	Men	1	1	1	general	diagnosed	LM
+Nauru	15-29	Men	3	9	3	general	treated	LM
+Nauru	30-44	Men	16	32	17	general	treated	LM
+Nauru	45-59	Men	24	36	26	general	treated	LM
+Nauru	60-79	Men	1	1	1	general	treated	LM
+Nauru	15-29	Men	2	9	3	general	controlled	LM
+Nauru	30-44	Men	3	32	16	general	controlled	LM
+Nauru	45-59	Men	9	36	24	general	controlled	LM
+Nauru	60-79	Men	1	1	1	general	controlled	LM
+Nauru	all ages	Men	78	652	652	general	prevalence	LM
+Nauru	all ages	Men	64	652	78	general	tested	LM
+Nauru	all ages	Men	47	652	64	general	diagnosed	LM
+Nauru	all ages	Men	44	652	47	general	treated	LM
+Nauru	all ages	Men	15	652	44	general	controlled	LM
+Nepal	15-29	Women	7	450	450	general	prevalence	L
+Nepal	30-44	Women	41	636	636	general	prevalence	L
+Nepal	45-59	Women	64	601	601	general	prevalence	L
+Nepal	60-79	Women	31	311	311	general	prevalence	L
+Nepal	15-29	Women	1	7	7	general	tested	L
+Nepal	30-44	Women	12	41	41	general	tested	L
+Nepal	45-59	Women	36	64	64	general	tested	L
+Nepal	60-79	Women	15	31	31	general	tested	L
+Nepal	15-29	Women	0	7	1	general	diagnosed	L
+Nepal	30-44	Women	7	41	12	general	diagnosed	L
+Nepal	45-59	Women	28	64	36	general	diagnosed	L
+Nepal	60-79	Women	12	31	15	general	diagnosed	L
+Nepal	15-29	Women	0	7	0	general	treated	L
+Nepal	30-44	Women	6	41	7	general	treated	L
+Nepal	45-59	Women	24	64	28	general	treated	L
+Nepal	60-79	Women	12	31	12	general	treated	L
+Nepal	15-29	Women	0	7	0	general	controlled	L
+Nepal	30-44	Women	3	41	6	general	controlled	L
+Nepal	45-59	Women	7	64	24	general	controlled	L
+Nepal	60-79	Women	4	31	12	general	controlled	L
+Nepal	all ages	Women	143	1998	1998	general	prevalence	L
+Nepal	all ages	Women	64	1998	143	general	tested	L
+Nepal	all ages	Women	47	1998	64	general	diagnosed	L
+Nepal	all ages	Women	42	1998	47	general	treated	L
+Nepal	all ages	Women	14	1998	42	general	controlled	L
+Nepal	15-29	Men	23	1016	1016	general	prevalence	L
+Nepal	30-44	Men	68	1403	1403	general	prevalence	L
+Nepal	45-59	Men	75	795	795	general	prevalence	L
+Nepal	60-79	Men	32	381	381	general	prevalence	L
+Nepal	15-29	Men	1	23	23	general	tested	L
+Nepal	30-44	Men	17	68	68	general	tested	L
+Nepal	45-59	Men	33	75	75	general	tested	L
+Nepal	60-79	Men	18	32	32	general	tested	L
+Nepal	15-29	Men	0	23	1	general	diagnosed	L
+Nepal	30-44	Men	10	68	17	general	diagnosed	L
+Nepal	45-59	Men	24	75	33	general	diagnosed	L
+Nepal	60-79	Men	12	32	18	general	diagnosed	L
+Nepal	15-29	Men	0	23	0	general	treated	L
+Nepal	30-44	Men	10	68	10	general	treated	L
+Nepal	45-59	Men	23	75	24	general	treated	L
+Nepal	60-79	Men	11	32	12	general	treated	L
+Nepal	15-29	Men	0	23	0	general	controlled	L
+Nepal	30-44	Men	1	68	10	general	controlled	L
+Nepal	45-59	Men	8	75	23	general	controlled	L
+Nepal	60-79	Men	3	32	11	general	controlled	L
+Nepal	all ages	Men	198	3595	3595	general	prevalence	L
+Nepal	all ages	Men	69	3595	198	general	tested	L
+Nepal	all ages	Men	46	3595	69	general	diagnosed	L
+Nepal	all ages	Men	44	3595	46	general	treated	L
+Nepal	all ages	Men	12	3595	44	general	controlled	L
+Republic of Moldova	15-29	Women	5	519	519	general	prevalence	LM
+Republic of Moldova	30-44	Women	33	760	760	general	prevalence	LM
+Republic of Moldova	45-59	Women	81	1010	1010	general	prevalence	LM
+Republic of Moldova	60-79	Women	118	691	691	general	prevalence	LM
+Republic of Moldova	15-29	Women	3	5	5	general	tested	LM
+Republic of Moldova	30-44	Women	24	33	33	general	tested	LM
+Republic of Moldova	45-59	Women	73	81	81	general	tested	LM
+Republic of Moldova	60-79	Women	110	118	118	general	tested	LM
+Republic of Moldova	15-29	Women	0	5	3	general	diagnosed	LM
+Republic of Moldova	30-44	Women	8	33	24	general	diagnosed	LM
+Republic of Moldova	45-59	Women	52	81	73	general	diagnosed	LM
+Republic of Moldova	60-79	Women	83	118	110	general	diagnosed	LM
+Republic of Moldova	15-29	Women	0	5	0	general	treated	LM
+Republic of Moldova	30-44	Women	8	33	8	general	treated	LM
+Republic of Moldova	45-59	Women	52	81	52	general	treated	LM
+Republic of Moldova	60-79	Women	82	118	83	general	treated	LM
+Republic of Moldova	15-29	Women	0	5	0	general	controlled	LM
+Republic of Moldova	30-44	Women	5	33	8	general	controlled	LM
+Republic of Moldova	45-59	Women	32	81	52	general	controlled	LM
+Republic of Moldova	60-79	Women	50	118	82	general	controlled	LM
+Republic of Moldova	all ages	Women	237	2980	2980	general	prevalence	LM
+Republic of Moldova	all ages	Women	210	2980	237	general	tested	LM
+Republic of Moldova	all ages	Women	143	2980	210	general	diagnosed	LM
+Republic of Moldova	all ages	Women	142	2980	143	general	treated	LM
+Republic of Moldova	all ages	Women	87	2980	142	general	controlled	LM
+Republic of Moldova	15-29	Men	3	329	329	general	prevalence	LM
+Republic of Moldova	30-44	Men	17	473	473	general	prevalence	LM
+Republic of Moldova	45-59	Men	54	678	678	general	prevalence	LM
+Republic of Moldova	60-79	Men	47	347	347	general	prevalence	LM
+Republic of Moldova	15-29	Men	3	3	3	general	tested	LM
+Republic of Moldova	30-44	Men	11	17	17	general	tested	LM
+Republic of Moldova	45-59	Men	39	54	54	general	tested	LM
+Republic of Moldova	60-79	Men	42	47	47	general	tested	LM
+Republic of Moldova	15-29	Men	0	3	3	general	diagnosed	LM
+Republic of Moldova	30-44	Men	7	17	11	general	diagnosed	LM
+Republic of Moldova	45-59	Men	24	54	39	general	diagnosed	LM
+Republic of Moldova	60-79	Men	30	47	42	general	diagnosed	LM
+Republic of Moldova	15-29	Men	0	3	0	general	treated	LM
+Republic of Moldova	30-44	Men	6	17	7	general	treated	LM
+Republic of Moldova	45-59	Men	23	54	24	general	treated	LM
+Republic of Moldova	60-79	Men	29	47	30	general	treated	LM
+Republic of Moldova	15-29	Men	0	3	0	general	controlled	LM
+Republic of Moldova	30-44	Men	3	17	6	general	controlled	LM
+Republic of Moldova	45-59	Men	10	54	23	general	controlled	LM
+Republic of Moldova	60-79	Men	15	47	29	general	controlled	LM
+Republic of Moldova	all ages	Men	121	1827	1827	general	prevalence	LM
+Republic of Moldova	all ages	Men	95	1827	121	general	tested	LM
+Republic of Moldova	all ages	Men	61	1827	95	general	diagnosed	LM
+Republic of Moldova	all ages	Men	58	1827	61	general	treated	LM
+Republic of Moldova	all ages	Men	28	1827	58	general	controlled	LM
+Sao Tome	15-29	Women	19	449	449	general	prevalence	L
+Sao Tome	30-44	Women	40	571	571	general	prevalence	L
+Sao Tome	45-59	Women	43	311	311	general	prevalence	L
+Sao Tome	60-79	Women	23	108	108	general	prevalence	L
+Sao Tome	15-29	Women	12	19	19	general	tested	L
+Sao Tome	30-44	Women	12	40	40	general	tested	L
+Sao Tome	45-59	Women	23	43	43	general	tested	L
+Sao Tome	60-79	Women	18	23	23	general	tested	L
+Sao Tome	15-29	Women	3	19	12	general	diagnosed	L
+Sao Tome	30-44	Women	3	40	12	general	diagnosed	L
+Sao Tome	45-59	Women	15	43	23	general	diagnosed	L
+Sao Tome	60-79	Women	12	23	18	general	diagnosed	L
+Sao Tome	15-29	Women	3	19	3	general	treated	L
+Sao Tome	30-44	Women	3	40	3	general	treated	L
+Sao Tome	45-59	Women	13	43	15	general	treated	L
+Sao Tome	60-79	Women	10	23	12	general	treated	L
+Sao Tome	15-29	Women	3	19	3	general	controlled	L
+Sao Tome	30-44	Women	3	40	3	general	controlled	L
+Sao Tome	45-59	Women	6	43	13	general	controlled	L
+Sao Tome	60-79	Women	6	23	10	general	controlled	L
+Sao Tome	all ages	Women	125	1439	1439	general	prevalence	L
+Sao Tome	all ages	Women	65	1439	125	general	tested	L
+Sao Tome	all ages	Women	33	1439	65	general	diagnosed	L
+Sao Tome	all ages	Women	29	1439	33	general	treated	L
+Sao Tome	all ages	Women	18	1439	29	general	controlled	L
+Sao Tome	15-29	Men	21	330	330	general	prevalence	L
+Sao Tome	30-44	Men	32	386	386	general	prevalence	L
+Sao Tome	45-59	Men	20	187	187	general	prevalence	L
+Sao Tome	60-79	Men	7	76	76	general	prevalence	L
+Sao Tome	15-29	Men	2	21	21	general	tested	L
+Sao Tome	30-44	Men	14	32	32	general	tested	L
+Sao Tome	45-59	Men	11	20	20	general	tested	L
+Sao Tome	60-79	Men	5	7	7	general	tested	L
+Sao Tome	15-29	Men	0	21	2	general	diagnosed	L
+Sao Tome	30-44	Men	7	32	14	general	diagnosed	L
+Sao Tome	45-59	Men	8	20	11	general	diagnosed	L
+Sao Tome	60-79	Men	3	7	5	general	diagnosed	L
+Sao Tome	15-29	Men	0	21	0	general	treated	L
+Sao Tome	30-44	Men	6	32	7	general	treated	L
+Sao Tome	45-59	Men	6	20	8	general	treated	L
+Sao Tome	60-79	Men	3	7	3	general	treated	L
+Sao Tome	15-29	Men	0	21	0	general	controlled	L
+Sao Tome	30-44	Men	2	32	6	general	controlled	L
+Sao Tome	45-59	Men	1	20	6	general	controlled	L
+Sao Tome	60-79	Men	2	7	3	general	controlled	L
+Sao Tome	all ages	Men	80	979	979	general	prevalence	L
+Sao Tome	all ages	Men	32	979	80	general	tested	L
+Sao Tome	all ages	Men	18	979	32	general	diagnosed	L
+Sao Tome	all ages	Men	15	979	18	general	treated	L
+Sao Tome	all ages	Men	5	979	15	general	controlled	L
+Solomon Islands 	15-29	Women	8	372	372	general	prevalence	L
+Solomon Islands 	30-44	Women	16	614	614	general	prevalence	L
+Solomon Islands 	45-59	Women	28	298	298	general	prevalence	L
+Solomon Islands 	60-79	Women	11	118	118	general	prevalence	L
+Solomon Islands 	15-29	Women	1	8	8	general	tested	L
+Solomon Islands 	30-44	Women	5	16	16	general	tested	L
+Solomon Islands 	45-59	Women	13	28	28	general	tested	L
+Solomon Islands 	60-79	Women	7	11	11	general	tested	L
+Solomon Islands 	15-29	Women	0	8	1	general	diagnosed	L
+Solomon Islands 	30-44	Women	2	16	5	general	diagnosed	L
+Solomon Islands 	45-59	Women	7	28	13	general	diagnosed	L
+Solomon Islands 	60-79	Women	6	11	7	general	diagnosed	L
+Solomon Islands 	15-29	Women	0	8	0	general	treated	L
+Solomon Islands 	30-44	Women	2	16	2	general	treated	L
+Solomon Islands 	45-59	Women	6	28	7	general	treated	L
+Solomon Islands 	60-79	Women	5	11	6	general	treated	L
+Solomon Islands 	15-29	Women	0	8	0	general	controlled	L
+Solomon Islands 	30-44	Women	1	16	2	general	controlled	L
+Solomon Islands 	45-59	Women	3	28	6	general	controlled	L
+Solomon Islands 	60-79	Women	1	11	5	general	controlled	L
+Solomon Islands 	all ages	Women	63	1402	1402	general	prevalence	L
+Solomon Islands 	all ages	Women	26	1402	63	general	tested	L
+Solomon Islands 	all ages	Women	15	1402	26	general	diagnosed	L
+Solomon Islands 	all ages	Women	13	1402	15	general	treated	L
+Solomon Islands 	all ages	Women	5	1402	13	general	controlled	L
+Solomon Islands 	15-29	Men	5	285	285	general	prevalence	L
+Solomon Islands 	30-44	Men	10	408	408	general	prevalence	L
+Solomon Islands 	45-59	Men	27	314	314	general	prevalence	L
+Solomon Islands 	60-79	Men	7	124	124	general	prevalence	L
+Solomon Islands 	15-29	Men	3	5	5	general	tested	L
+Solomon Islands 	30-44	Men	3	10	10	general	tested	L
+Solomon Islands 	45-59	Men	13	27	27	general	tested	L
+Solomon Islands 	60-79	Men	5	7	7	general	tested	L
+Solomon Islands 	15-29	Men	3	5	3	general	diagnosed	L
+Solomon Islands 	30-44	Men	1	10	3	general	diagnosed	L
+Solomon Islands 	45-59	Men	5	27	13	general	diagnosed	L
+Solomon Islands 	60-79	Men	3	7	5	general	diagnosed	L
+Solomon Islands 	15-29	Men	3	5	3	general	treated	L
+Solomon Islands 	30-44	Men	1	10	1	general	treated	L
+Solomon Islands 	45-59	Men	5	27	5	general	treated	L
+Solomon Islands 	60-79	Men	2	7	3	general	treated	L
+Solomon Islands 	15-29	Men	2	5	3	general	controlled	L
+Solomon Islands 	30-44	Men	0	10	1	general	controlled	L
+Solomon Islands 	45-59	Men	1	27	5	general	controlled	L
+Solomon Islands 	60-79	Men	0	7	2	general	controlled	L
+Solomon Islands 	all ages	Men	49	1131	1131	general	prevalence	L
+Solomon Islands 	all ages	Men	24	1131	49	general	tested	L
+Solomon Islands 	all ages	Men	12	1131	24	general	diagnosed	L
+Solomon Islands 	all ages	Men	11	1131	12	general	treated	L
+Solomon Islands 	all ages	Men	3	1131	11	general	controlled	L
+Sri Lanka	15-29	Women	9	508	508	general	prevalence	UM
+Sri Lanka	30-44	Women	72	1143	1143	general	prevalence	UM
+Sri Lanka	45-59	Women	163	1004	1004	general	prevalence	UM
+Sri Lanka	60-79	Women	138	503	503	general	prevalence	UM
+Sri Lanka	15-29	Women	5	9	9	general	tested	UM
+Sri Lanka	30-44	Women	60	72	72	general	tested	UM
+Sri Lanka	45-59	Women	147	163	163	general	tested	UM
+Sri Lanka	60-79	Women	130	138	138	general	tested	UM
+Sri Lanka	15-29	Women	1	9	5	general	diagnosed	UM
+Sri Lanka	30-44	Women	44	72	60	general	diagnosed	UM
+Sri Lanka	45-59	Women	131	163	147	general	diagnosed	UM
+Sri Lanka	60-79	Women	118	138	130	general	diagnosed	UM
+Sri Lanka	15-29	Women	1	9	1	general	treated	UM
+Sri Lanka	30-44	Women	44	72	44	general	treated	UM
+Sri Lanka	45-59	Women	131	163	131	general	treated	UM
+Sri Lanka	60-79	Women	117	138	118	general	treated	UM
+Sri Lanka	15-29	Women	0	9	1	general	controlled	UM
+Sri Lanka	30-44	Women	23	72	44	general	controlled	UM
+Sri Lanka	45-59	Women	64	163	131	general	controlled	UM
+Sri Lanka	60-79	Women	63	138	117	general	controlled	UM
+Sri Lanka	all ages	Women	382	3158	3158	general	prevalence	UM
+Sri Lanka	all ages	Women	342	3158	382	general	tested	UM
+Sri Lanka	all ages	Women	294	3158	342	general	diagnosed	UM
+Sri Lanka	all ages	Women	293	3158	294	general	treated	UM
+Sri Lanka	all ages	Women	150	3158	293	general	controlled	UM
+Sri Lanka	15-29	Men	7	295	295	general	prevalence	UM
+Sri Lanka	30-44	Men	49	679	679	general	prevalence	UM
+Sri Lanka	45-59	Men	108	691	691	general	prevalence	UM
+Sri Lanka	60-79	Men	61	365	365	general	prevalence	UM
+Sri Lanka	15-29	Men	4	7	7	general	tested	UM
+Sri Lanka	30-44	Men	41	49	49	general	tested	UM
+Sri Lanka	45-59	Men	98	108	108	general	tested	UM
+Sri Lanka	60-79	Men	58	61	61	general	tested	UM
+Sri Lanka	15-29	Men	2	7	4	general	diagnosed	UM
+Sri Lanka	30-44	Men	34	49	41	general	diagnosed	UM
+Sri Lanka	45-59	Men	82	108	98	general	diagnosed	UM
+Sri Lanka	60-79	Men	50	61	58	general	diagnosed	UM
+Sri Lanka	15-29	Men	1	7	2	general	treated	UM
+Sri Lanka	30-44	Men	34	49	34	general	treated	UM
+Sri Lanka	45-59	Men	75	108	82	general	treated	UM
+Sri Lanka	60-79	Men	50	61	50	general	treated	UM
+Sri Lanka	15-29	Men	1	7	1	general	controlled	UM
+Sri Lanka	30-44	Men	18	49	34	general	controlled	UM
+Sri Lanka	45-59	Men	40	108	75	general	controlled	UM
+Sri Lanka	60-79	Men	31	61	50	general	controlled	UM
+Sri Lanka	all ages	Men	225	2030	2030	general	prevalence	UM
+Sri Lanka	all ages	Men	201	2030	225	general	tested	UM
+Sri Lanka	all ages	Men	168	2030	201	general	diagnosed	UM
+Sri Lanka	all ages	Men	160	2030	168	general	treated	UM
+Sri Lanka	all ages	Men	90	2030	160	general	controlled	UM
+Sudan	15-29	Women	52	1689	1689	general	prevalence	L
+Sudan	30-44	Women	131	1921	1921	general	prevalence	L
+Sudan	45-59	Women	177	1032	1032	general	prevalence	L
+Sudan	60-79	Women	65	373	373	general	prevalence	L
+Sudan	15-29	Women	14	52	52	general	tested	L
+Sudan	30-44	Women	67	131	131	general	tested	L
+Sudan	45-59	Women	128	177	177	general	tested	L
+Sudan	60-79	Women	51	65	65	general	tested	L
+Sudan	15-29	Women	11	52	14	general	diagnosed	L
+Sudan	30-44	Women	44	131	67	general	diagnosed	L
+Sudan	45-59	Women	107	177	128	general	diagnosed	L
+Sudan	60-79	Women	46	65	51	general	diagnosed	L
+Sudan	15-29	Women	10	52	11	general	treated	L
+Sudan	30-44	Women	42	131	44	general	treated	L
+Sudan	45-59	Women	102	177	107	general	treated	L
+Sudan	60-79	Women	44	65	46	general	treated	L
+Sudan	15-29	Women	5	52	10	general	controlled	L
+Sudan	30-44	Women	16	131	42	general	controlled	L
+Sudan	45-59	Women	36	177	102	general	controlled	L
+Sudan	60-79	Women	25	65	44	general	controlled	L
+Sudan	all ages	Women	425	5015	5015	general	prevalence	L
+Sudan	all ages	Women	260	5015	425	general	tested	L
+Sudan	all ages	Women	208	5015	260	general	diagnosed	L
+Sudan	all ages	Women	198	5015	208	general	treated	L
+Sudan	all ages	Women	82	5015	198	general	controlled	L
+Sudan	15-29	Men	23	721	721	general	prevalence	L
+Sudan	30-44	Men	51	894	894	general	prevalence	L
+Sudan	45-59	Men	116	727	727	general	prevalence	L
+Sudan	60-79	Men	45	365	365	general	prevalence	L
+Sudan	15-29	Men	2	23	23	general	tested	L
+Sudan	30-44	Men	23	51	51	general	tested	L
+Sudan	45-59	Men	83	116	116	general	tested	L
+Sudan	60-79	Men	36	45	45	general	tested	L
+Sudan	15-29	Men	1	23	2	general	diagnosed	L
+Sudan	30-44	Men	21	51	23	general	diagnosed	L
+Sudan	45-59	Men	72	116	83	general	diagnosed	L
+Sudan	60-79	Men	33	45	36	general	diagnosed	L
+Sudan	15-29	Men	1	23	1	general	treated	L
+Sudan	30-44	Men	18	51	21	general	treated	L
+Sudan	45-59	Men	70	116	72	general	treated	L
+Sudan	60-79	Men	33	45	33	general	treated	L
+Sudan	15-29	Men	1	23	1	general	controlled	L
+Sudan	30-44	Men	11	51	18	general	controlled	L
+Sudan	45-59	Men	25	116	70	general	controlled	L
+Sudan	60-79	Men	20	45	33	general	controlled	L
+Sudan	all ages	Men	235	2707	2707	general	prevalence	L
+Sudan	all ages	Men	144	2707	235	general	tested	L
+Sudan	all ages	Men	127	2707	144	general	diagnosed	L
+Sudan	all ages	Men	122	2707	127	general	treated	L
+Sudan	all ages	Men	57	2707	122	general	controlled	L
+Tajikistan	15-29	Women	6	432	432	general	prevalence	LM
+Tajikistan	30-44	Women	30	615	615	general	prevalence	LM
+Tajikistan	45-59	Women	63	436	436	general	prevalence	LM
+Tajikistan	60-79	Women	24	135	135	general	prevalence	LM
+Tajikistan	15-29	Women	2	6	6	general	tested	LM
+Tajikistan	30-44	Women	6	30	30	general	tested	LM
+Tajikistan	45-59	Women	38	63	63	general	tested	LM
+Tajikistan	60-79	Women	17	24	24	general	tested	LM
+Tajikistan	15-29	Women	1	6	2	general	diagnosed	LM
+Tajikistan	30-44	Women	2	30	6	general	diagnosed	LM
+Tajikistan	45-59	Women	21	63	38	general	diagnosed	LM
+Tajikistan	60-79	Women	11	24	17	general	diagnosed	LM
+Tajikistan	15-29	Women	1	6	1	general	treated	LM
+Tajikistan	30-44	Women	2	30	2	general	treated	LM
+Tajikistan	45-59	Women	20	63	21	general	treated	LM
+Tajikistan	60-79	Women	9	24	11	general	treated	LM
+Tajikistan	15-29	Women	1	6	1	general	controlled	LM
+Tajikistan	30-44	Women	2	30	2	general	controlled	LM
+Tajikistan	45-59	Women	7	63	20	general	controlled	LM
+Tajikistan	60-79	Women	4	24	9	general	controlled	LM
+Tajikistan	all ages	Women	123	1618	1618	general	prevalence	LM
+Tajikistan	all ages	Women	63	1618	123	general	tested	LM
+Tajikistan	all ages	Women	35	1618	63	general	diagnosed	LM
+Tajikistan	all ages	Women	32	1618	35	general	treated	LM
+Tajikistan	all ages	Women	14	1618	32	general	controlled	LM
+Tajikistan	15-29	Men	11	312	312	general	prevalence	LM
+Tajikistan	30-44	Men	25	347	347	general	prevalence	LM
+Tajikistan	45-59	Men	37	336	336	general	prevalence	LM
+Tajikistan	60-79	Men	17	104	104	general	prevalence	LM
+Tajikistan	15-29	Men	1	11	11	general	tested	LM
+Tajikistan	30-44	Men	7	25	25	general	tested	LM
+Tajikistan	45-59	Men	19	37	37	general	tested	LM
+Tajikistan	60-79	Men	10	17	17	general	tested	LM
+Tajikistan	15-29	Men	0	11	1	general	diagnosed	LM
+Tajikistan	30-44	Men	3	25	7	general	diagnosed	LM
+Tajikistan	45-59	Men	12	37	19	general	diagnosed	LM
+Tajikistan	60-79	Men	8	17	10	general	diagnosed	LM
+Tajikistan	15-29	Men	0	11	0	general	treated	LM
+Tajikistan	30-44	Men	3	25	3	general	treated	LM
+Tajikistan	45-59	Men	12	37	12	general	treated	LM
+Tajikistan	60-79	Men	6	17	8	general	treated	LM
+Tajikistan	15-29	Men	0	11	0	general	controlled	LM
+Tajikistan	30-44	Men	1	25	3	general	controlled	LM
+Tajikistan	45-59	Men	7	37	12	general	controlled	LM
+Tajikistan	60-79	Men	4	17	6	general	controlled	LM
+Tajikistan	all ages	Men	90	1100	1100	general	prevalence	LM
+Tajikistan	all ages	Men	37	1100	90	general	tested	LM
+Tajikistan	all ages	Men	23	1100	37	general	diagnosed	LM
+Tajikistan	all ages	Men	21	1100	23	general	treated	LM
+Tajikistan	all ages	Men	12	1100	21	general	controlled	LM
+Timor Leste	15-29	Women	1	447	447	general	prevalence	L
+Timor Leste	30-44	Women	20	575	575	general	prevalence	L
+Timor Leste	45-59	Women	11	313	313	general	prevalence	L
+Timor Leste	60-79	Women	5	191	191	general	prevalence	L
+Timor Leste	15-29	Women	0	1	1	general	tested	L
+Timor Leste	30-44	Women	3	20	20	general	tested	L
+Timor Leste	45-59	Women	2	11	11	general	tested	L
+Timor Leste	60-79	Women	1	5	5	general	tested	L
+Timor Leste	15-29	Women	0	1	0	general	diagnosed	L
+Timor Leste	30-44	Women	1	20	3	general	diagnosed	L
+Timor Leste	45-59	Women	2	11	2	general	diagnosed	L
+Timor Leste	60-79	Women	1	5	1	general	diagnosed	L
+Timor Leste	15-29	Women	0	1	0	general	treated	L
+Timor Leste	30-44	Women	1	20	1	general	treated	L
+Timor Leste	45-59	Women	2	11	2	general	treated	L
+Timor Leste	60-79	Women	0	5	1	general	treated	L
+Timor Leste	15-29	Women	0	1	0	general	controlled	L
+Timor Leste	30-44	Women	1	20	1	general	controlled	L
+Timor Leste	45-59	Women	0	11	2	general	controlled	L
+Timor Leste	60-79	Women	0	5	0	general	controlled	L
+Timor Leste	all ages	Women	37	1526	1526	general	prevalence	L
+Timor Leste	all ages	Women	6	1526	37	general	tested	L
+Timor Leste	all ages	Women	4	1526	6	general	diagnosed	L
+Timor Leste	all ages	Women	3	1526	4	general	treated	L
+Timor Leste	all ages	Women	1	1526	3	general	controlled	L
+Timor Leste	15-29	Men	4	226	226	general	prevalence	L
+Timor Leste	30-44	Men	7	376	376	general	prevalence	L
+Timor Leste	45-59	Men	12	283	283	general	prevalence	L
+Timor Leste	60-79	Men	10	198	198	general	prevalence	L
+Timor Leste	15-29	Men	0	4	4	general	tested	L
+Timor Leste	30-44	Men	1	7	7	general	tested	L
+Timor Leste	45-59	Men	3	12	12	general	tested	L
+Timor Leste	60-79	Men	2	10	10	general	tested	L
+Timor Leste	15-29	Men	0	4	0	general	diagnosed	L
+Timor Leste	30-44	Men	1	7	1	general	diagnosed	L
+Timor Leste	45-59	Men	3	12	3	general	diagnosed	L
+Timor Leste	60-79	Men	2	10	2	general	diagnosed	L
+Timor Leste	15-29	Men	0	4	0	general	treated	L
+Timor Leste	30-44	Men	1	7	1	general	treated	L
+Timor Leste	45-59	Men	3	12	3	general	treated	L
+Timor Leste	60-79	Men	2	10	2	general	treated	L
+Timor Leste	15-29	Men	0	4	0	general	controlled	L
+Timor Leste	30-44	Men	1	7	1	general	controlled	L
+Timor Leste	45-59	Men	0	12	3	general	controlled	L
+Timor Leste	60-79	Men	1	10	2	general	controlled	L
+Timor Leste	all ages	Men	33	1083	1083	general	prevalence	L
+Timor Leste	all ages	Men	6	1083	33	general	tested	L
+Timor Leste	all ages	Men	6	1083	6	general	diagnosed	L
+Timor Leste	all ages	Men	6	1083	6	general	treated	L
+Timor Leste	all ages	Men	2	1083	6	general	controlled	L
+Turkemenistan	15-29	Women	12	586	586	general	prevalence	LM
+Turkemenistan	30-44	Women	41	866	866	general	prevalence	LM
+Turkemenistan	45-59	Women	61	658	658	general	prevalence	LM
+Turkemenistan	60-79	Women	47	227	227	general	prevalence	LM
+Turkemenistan	15-29	Women	4	12	12	general	tested	LM
+Turkemenistan	30-44	Women	18	41	41	general	tested	LM
+Turkemenistan	45-59	Women	45	61	61	general	tested	LM
+Turkemenistan	60-79	Women	40	47	47	general	tested	LM
+Turkemenistan	15-29	Women	0	12	4	general	diagnosed	LM
+Turkemenistan	30-44	Women	7	41	18	general	diagnosed	LM
+Turkemenistan	45-59	Women	16	61	45	general	diagnosed	LM
+Turkemenistan	60-79	Women	21	47	40	general	diagnosed	LM
+Turkemenistan	15-29	Women	0	12	0	general	treated	LM
+Turkemenistan	30-44	Women	7	41	7	general	treated	LM
+Turkemenistan	45-59	Women	14	61	16	general	treated	LM
+Turkemenistan	60-79	Women	21	47	21	general	treated	LM
+Turkemenistan	15-29	Women	0	12	0	general	controlled	LM
+Turkemenistan	30-44	Women	4	41	7	general	controlled	LM
+Turkemenistan	45-59	Women	6	61	14	general	controlled	LM
+Turkemenistan	60-79	Women	13	47	21	general	controlled	LM
+Turkemenistan	all ages	Women	161	2337	2337	general	prevalence	LM
+Turkemenistan	all ages	Women	107	2337	161	general	tested	LM
+Turkemenistan	all ages	Women	44	2337	107	general	diagnosed	LM
+Turkemenistan	all ages	Women	42	2337	44	general	treated	LM
+Turkemenistan	all ages	Women	23	2337	42	general	controlled	LM
+Turkemenistan	15-29	Men	13	430	430	general	prevalence	LM
+Turkemenistan	30-44	Men	36	669	669	general	prevalence	LM
+Turkemenistan	45-59	Men	43	460	460	general	prevalence	LM
+Turkemenistan	60-79	Men	19	157	157	general	prevalence	LM
+Turkemenistan	15-29	Men	1	13	13	general	tested	LM
+Turkemenistan	30-44	Men	10	36	36	general	tested	LM
+Turkemenistan	45-59	Men	29	43	43	general	tested	LM
+Turkemenistan	60-79	Men	14	19	19	general	tested	LM
+Turkemenistan	15-29	Men	0	13	1	general	diagnosed	LM
+Turkemenistan	30-44	Men	4	36	10	general	diagnosed	LM
+Turkemenistan	45-59	Men	12	43	29	general	diagnosed	LM
+Turkemenistan	60-79	Men	7	19	14	general	diagnosed	LM
+Turkemenistan	15-29	Men	0	13	0	general	treated	LM
+Turkemenistan	30-44	Men	4	36	4	general	treated	LM
+Turkemenistan	45-59	Men	12	43	12	general	treated	LM
+Turkemenistan	60-79	Men	7	19	7	general	treated	LM
+Turkemenistan	15-29	Men	0	13	0	general	controlled	LM
+Turkemenistan	30-44	Men	3	36	4	general	controlled	LM
+Turkemenistan	45-59	Men	6	43	12	general	controlled	LM
+Turkemenistan	60-79	Men	2	19	7	general	controlled	LM
+Turkemenistan	all ages	Men	111	1716	1716	general	prevalence	LM
+Turkemenistan	all ages	Men	54	1716	111	general	tested	LM
+Turkemenistan	all ages	Men	23	1716	54	general	diagnosed	LM
+Turkemenistan	all ages	Men	23	1716	23	general	treated	LM
+Turkemenistan	all ages	Men	11	1716	23	general	controlled	LM
+Tuvalu	15-29	Women	1	155	155	general	prevalence	L
+Tuvalu	30-44	Women	20	180	180	general	prevalence	L
+Tuvalu	45-59	Women	48	209	209	general	prevalence	L
+Tuvalu	60-79	Women	14	84	84	general	prevalence	L
+Tuvalu	15-29	Women	1	1	1	general	tested	L
+Tuvalu	30-44	Women	15	20	20	general	tested	L
+Tuvalu	45-59	Women	36	48	48	general	tested	L
+Tuvalu	60-79	Women	11	14	14	general	tested	L
+Tuvalu	15-29	Women	1	1	1	general	diagnosed	L
+Tuvalu	30-44	Women	11	20	15	general	diagnosed	L
+Tuvalu	45-59	Women	29	48	36	general	diagnosed	L
+Tuvalu	60-79	Women	9	14	11	general	diagnosed	L
+Tuvalu	15-29	Women	1	1	1	general	treated	L
+Tuvalu	30-44	Women	11	20	11	general	treated	L
+Tuvalu	45-59	Women	29	48	29	general	treated	L
+Tuvalu	60-79	Women	9	14	9	general	treated	L
+Tuvalu	15-29	Women	1	1	1	general	controlled	L
+Tuvalu	30-44	Women	3	20	11	general	controlled	L
+Tuvalu	45-59	Women	14	48	29	general	controlled	L
+Tuvalu	60-79	Women	8	14	9	general	controlled	L
+Tuvalu	all ages	Women	83	628	628	general	prevalence	L
+Tuvalu	all ages	Women	63	628	83	general	tested	L
+Tuvalu	all ages	Women	50	628	63	general	diagnosed	L
+Tuvalu	all ages	Women	50	628	50	general	treated	L
+Tuvalu	all ages	Women	26	628	50	general	controlled	L
+Tuvalu	15-29	Men	2	152	152	general	prevalence	L
+Tuvalu	30-44	Men	9	149	149	general	prevalence	L
+Tuvalu	45-59	Men	24	173	173	general	prevalence	L
+Tuvalu	60-79	Men	9	53	53	general	prevalence	L
+Tuvalu	15-29	Men	0	2	2	general	tested	L
+Tuvalu	30-44	Men	6	9	9	general	tested	L
+Tuvalu	45-59	Men	18	24	24	general	tested	L
+Tuvalu	60-79	Men	7	9	9	general	tested	L
+Tuvalu	15-29	Men	0	2	0	general	diagnosed	L
+Tuvalu	30-44	Men	2	9	6	general	diagnosed	L
+Tuvalu	45-59	Men	14	24	18	general	diagnosed	L
+Tuvalu	60-79	Men	4	9	7	general	diagnosed	L
+Tuvalu	15-29	Men	0	2	0	general	treated	L
+Tuvalu	30-44	Men	2	9	2	general	treated	L
+Tuvalu	45-59	Men	14	24	14	general	treated	L
+Tuvalu	60-79	Men	3	9	4	general	treated	L
+Tuvalu	15-29	Men	0	2	0	general	controlled	L
+Tuvalu	30-44	Men	0	9	2	general	controlled	L
+Tuvalu	45-59	Men	6	24	14	general	controlled	L
+Tuvalu	60-79	Men	2	9	3	general	controlled	L
+Tuvalu	all ages	Men	44	527	527	general	prevalence	L
+Tuvalu	all ages	Men	31	527	44	general	tested	L
+Tuvalu	all ages	Men	20	527	31	general	diagnosed	L
+Tuvalu	all ages	Men	19	527	20	general	treated	L
+Tuvalu	all ages	Men	8	527	19	general	controlled	L
+Uganda	15-29	Women	2	956	956	general	prevalence	L
+Uganda	30-44	Women	7	824	824	general	prevalence	L
+Uganda	45-59	Women	13	419	419	general	prevalence	L
+Uganda	60-79	Women	5	184	184	general	prevalence	L
+Uganda	15-29	Women	0	2	2	general	tested	L
+Uganda	30-44	Women	4	7	7	general	tested	L
+Uganda	45-59	Women	11	13	13	general	tested	L
+Uganda	60-79	Women	3	5	5	general	tested	L
+Uganda	15-29	Women	0	2	0	general	diagnosed	L
+Uganda	30-44	Women	2	7	4	general	diagnosed	L
+Uganda	45-59	Women	9	13	11	general	diagnosed	L
+Uganda	60-79	Women	3	5	3	general	diagnosed	L
+Uganda	15-29	Women	0	2	0	general	treated	L
+Uganda	30-44	Women	2	7	2	general	treated	L
+Uganda	45-59	Women	9	13	9	general	treated	L
+Uganda	60-79	Women	3	5	3	general	treated	L
+Uganda	15-29	Women	0	2	0	general	controlled	L
+Uganda	30-44	Women	1	7	2	general	controlled	L
+Uganda	45-59	Women	7	13	9	general	controlled	L
+Uganda	60-79	Women	2	5	3	general	controlled	L
+Uganda	all ages	Women	27	2383	2383	general	prevalence	L
+Uganda	all ages	Women	18	2383	27	general	tested	L
+Uganda	all ages	Women	14	2383	18	general	diagnosed	L
+Uganda	all ages	Women	14	2383	14	general	treated	L
+Uganda	all ages	Women	10	2383	14	general	controlled	L
+Uganda	15-29	Men	3	660	660	general	prevalence	L
+Uganda	30-44	Men	11	575	575	general	prevalence	L
+Uganda	45-59	Men	7	280	280	general	prevalence	L
+Uganda	60-79	Men	2	89	89	general	prevalence	L
+Uganda	15-29	Men	1	3	3	general	tested	L
+Uganda	30-44	Men	2	11	11	general	tested	L
+Uganda	45-59	Men	3	7	7	general	tested	L
+Uganda	60-79	Men	2	2	2	general	tested	L
+Uganda	15-29	Men	1	3	1	general	diagnosed	L
+Uganda	30-44	Men	2	11	2	general	diagnosed	L
+Uganda	45-59	Men	2	7	3	general	diagnosed	L
+Uganda	60-79	Men	2	2	2	general	diagnosed	L
+Uganda	15-29	Men	1	3	1	general	treated	L
+Uganda	30-44	Men	2	11	2	general	treated	L
+Uganda	45-59	Men	2	7	2	general	treated	L
+Uganda	60-79	Men	2	2	2	general	treated	L
+Uganda	15-29	Men	1	3	1	general	controlled	L
+Uganda	30-44	Men	1	11	2	general	controlled	L
+Uganda	45-59	Men	1	7	2	general	controlled	L
+Uganda	60-79	Men	2	2	2	general	controlled	L
+Uganda	all ages	Men	23	1604	1604	general	prevalence	L
+Uganda	all ages	Men	8	1604	23	general	tested	L
+Uganda	all ages	Men	7	1604	8	general	diagnosed	L
+Uganda	all ages	Men	7	1604	7	general	treated	L
+Uganda	all ages	Men	5	1604	7	general	controlled	L
+Vietnam	15-29	Women	1	375	375	general	prevalence	LM
+Vietnam	30-44	Women	19	787	787	general	prevalence	LM
+Vietnam	45-59	Women	33	666	666	general	prevalence	LM
+Vietnam	60-79	Women	25	254	254	general	prevalence	LM
+Vietnam	15-29	Women	1	1	1	general	tested	LM
+Vietnam	30-44	Women	8	19	19	general	tested	LM
+Vietnam	45-59	Women	22	33	33	general	tested	LM
+Vietnam	60-79	Women	22	25	25	general	tested	LM
+Vietnam	15-29	Women	1	1	1	general	diagnosed	LM
+Vietnam	30-44	Women	4	19	8	general	diagnosed	LM
+Vietnam	45-59	Women	17	33	22	general	diagnosed	LM
+Vietnam	60-79	Women	22	25	22	general	diagnosed	LM
+Vietnam	15-29	Women	1	1	1	general	treated	LM
+Vietnam	30-44	Women	4	19	4	general	treated	LM
+Vietnam	45-59	Women	17	33	17	general	treated	LM
+Vietnam	60-79	Women	22	25	22	general	treated	LM
+Vietnam	15-29	Women	0	1	1	general	controlled	LM
+Vietnam	30-44	Women	4	19	4	general	controlled	LM
+Vietnam	45-59	Women	15	33	17	general	controlled	LM
+Vietnam	60-79	Women	17	25	22	general	controlled	LM
+Vietnam	all ages	Women	78	2082	2082	general	prevalence	LM
+Vietnam	all ages	Women	53	2082	78	general	tested	LM
+Vietnam	all ages	Women	44	2082	53	general	diagnosed	LM
+Vietnam	all ages	Women	44	2082	44	general	treated	LM
+Vietnam	all ages	Women	36	2082	44	general	controlled	LM
+Vietnam	15-29	Men	2	316	316	general	prevalence	LM
+Vietnam	30-44	Men	7	587	587	general	prevalence	LM
+Vietnam	45-59	Men	27	553	553	general	prevalence	LM
+Vietnam	60-79	Men	13	220	220	general	prevalence	LM
+Vietnam	15-29	Men	1	2	2	general	tested	LM
+Vietnam	30-44	Men	5	7	7	general	tested	LM
+Vietnam	45-59	Men	18	27	27	general	tested	LM
+Vietnam	60-79	Men	10	13	13	general	tested	LM
+Vietnam	15-29	Men	1	2	1	general	diagnosed	LM
+Vietnam	30-44	Men	2	7	5	general	diagnosed	LM
+Vietnam	45-59	Men	15	27	18	general	diagnosed	LM
+Vietnam	60-79	Men	9	13	10	general	diagnosed	LM
+Vietnam	15-29	Men	1	2	1	general	treated	LM
+Vietnam	30-44	Men	2	7	2	general	treated	LM
+Vietnam	45-59	Men	15	27	15	general	treated	LM
+Vietnam	60-79	Men	8	13	9	general	treated	LM
+Vietnam	15-29	Men	1	2	1	general	controlled	LM
+Vietnam	30-44	Men	2	7	2	general	controlled	LM
+Vietnam	45-59	Men	12	27	15	general	controlled	LM
+Vietnam	60-79	Men	7	13	8	general	controlled	LM
+Vietnam	all ages	Men	49	1676	1676	general	prevalence	LM
+Vietnam	all ages	Men	34	1676	49	general	tested	LM
+Vietnam	all ages	Men	27	1676	34	general	diagnosed	LM
+Vietnam	all ages	Men	26	1676	27	general	treated	LM
+Vietnam	all ages	Men	22	1676	26	general	controlled	LM
+Zambia	15-29	Women	43	1023	1023	general	prevalence	L
+Zambia	30-44	Women	66	935	935	general	prevalence	L
+Zambia	45-59	Women	46	473	473	general	prevalence	L
+Zambia	60-79	Women	45	257	257	general	prevalence	L
+Zambia	15-29	Women	5	43	43	general	tested	L
+Zambia	30-44	Women	5	66	66	general	tested	L
+Zambia	45-59	Women	12	46	46	general	tested	L
+Zambia	60-79	Women	13	45	45	general	tested	L
+Zambia	15-29	Women	2	43	5	general	diagnosed	L
+Zambia	30-44	Women	2	66	5	general	diagnosed	L
+Zambia	45-59	Women	8	46	12	general	diagnosed	L
+Zambia	60-79	Women	10	45	13	general	diagnosed	L
+Zambia	15-29	Women	2	43	2	general	treated	L
+Zambia	30-44	Women	2	66	2	general	treated	L
+Zambia	45-59	Women	7	46	8	general	treated	L
+Zambia	60-79	Women	9	45	10	general	treated	L
+Zambia	15-29	Women	0	43	2	general	controlled	L
+Zambia	30-44	Women	2	66	2	general	controlled	L
+Zambia	45-59	Women	2	46	7	general	controlled	L
+Zambia	60-79	Women	6	45	9	general	controlled	L
+Zambia	all ages	Women	200	2688	2688	general	prevalence	L
+Zambia	all ages	Women	35	2688	200	general	tested	L
+Zambia	all ages	Women	22	2688	35	general	diagnosed	L
+Zambia	all ages	Women	20	2688	22	general	treated	L
+Zambia	all ages	Women	10	2688	20	general	controlled	L
+Zambia	15-29	Men	20	597	597	general	prevalence	L
+Zambia	30-44	Men	45	578	578	general	prevalence	L
+Zambia	45-59	Men	37	312	312	general	prevalence	L
+Zambia	60-79	Men	20	127	127	general	prevalence	L
+Zambia	15-29	Men	2	20	20	general	tested	L
+Zambia	30-44	Men	6	45	45	general	tested	L
+Zambia	45-59	Men	9	37	37	general	tested	L
+Zambia	60-79	Men	8	20	20	general	tested	L
+Zambia	15-29	Men	2	20	2	general	diagnosed	L
+Zambia	30-44	Men	2	45	6	general	diagnosed	L
+Zambia	45-59	Men	6	37	9	general	diagnosed	L
+Zambia	60-79	Men	7	20	8	general	diagnosed	L
+Zambia	15-29	Men	1	20	2	general	treated	L
+Zambia	30-44	Men	2	45	2	general	treated	L
+Zambia	45-59	Men	6	37	6	general	treated	L
+Zambia	60-79	Men	6	20	7	general	treated	L
+Zambia	15-29	Men	0	20	1	general	controlled	L
+Zambia	30-44	Men	2	45	2	general	controlled	L
+Zambia	45-59	Men	3	37	6	general	controlled	L
+Zambia	60-79	Men	4	20	6	general	controlled	L
+Zambia	all ages	Men	122	1614	1614	general	prevalence	L
+Zambia	all ages	Men	25	1614	122	general	tested	L
+Zambia	all ages	Men	17	1614	25	general	diagnosed	L
+Zambia	all ages	Men	15	1614	17	general	treated	L
+Zambia	all ages	Men	9	1614	15	general	controlled	L

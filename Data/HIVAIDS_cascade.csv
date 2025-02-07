@@ -1,0 +1,153 @@
+Sex;Country; Percent of people living with HIV who know their status;Percent of people living with HIV who know their status_lower; Percent of people living with HIV who know their status_upper; Coverage of people living with HIV receiving ART;Coverage of people living with HIV receiving ART_lower; Coverage of people living with HIV receiving ART_upper; Percent of people living with HIV who have suppressed viral loads;Percent of people living with HIV who have suppressed viral loads_lower; Percent of people living with HIV who have suppressed viral loads_upper
+Male;Albania;69;57;80;44;36;51;34;28;39
+Male;Algeria;76;68;84;70;63;77;63;56;69
+Male;Armenia;53;50;56;42;40;45;36;34;39
+Male;Australia;91;83;98;85;77;94;82;75;91
+Male;Azerbaijan;68;57;79;48;40;56;36;31;43
+Male;Barbados;92;78;98;65;56;77;58;49;68
+Male;Belarus;58;47;72;58;47;72;44;35;54
+Male;Belize;73;65;80;39;34;42;18;16;20
+Male;Bhutan;46;37;53;41;33;47;39;31;45
+Male;Botswana;93;87;98;80;74;84;76;71;81
+Male;Bulgaria;81;66;94;54;44;63;50;41;59
+Male;Cape Verde;54;48;65;54;48;65;25;22;30
+Male;Cambodia;76;67;89;76;66;88;73;64;85
+Male;Chile;94;81;98;70;60;77;64;55;71
+Male;Colombia;59;47;75;55;44;71;49;39;63
+Male;Comoros;52;31;98;43;26;85;38;23;76
+Male;Cuba;72;60;81;64;54;72;41;34;47
+Male;Czechia;80;65;98;72;58;88;69;56;85
+Male;Ivory Coast;67;60;77;52;46;60;42;37;48
+Male;Djibouti;56;42;80;23;17;32;15;11;21
+Male;Dominican Republic;75;59;89;43;33;51;36;28;42
+Male;Ecuador;87;77;98;71;62;80;52;46;59
+Male;El Salvador;92;83;98;60;54;65;54;48;59
+Male;Eritrea;77;61;95;57;45;71;50;39;62
+Male;Eswatini;96;90;98;68;63;74;66;61;71
+Male;Ethiopia;87;74;98;80;67;96;71;60;86
+Male;Fiji;28;19;50;21;14;36;16;10;27
+Male;Georgia;79;74;85;68;63;73;62;58;66
+Male;Ghana;47;40;55;23;20;27;16;14;19
+Male;Guatemala;73;69;78;69;65;74;62;59;66
+Male;Haiti;66;59;75;57;51;65;45;40;51
+Male;Honduras;68;60;76;57;50;63;50;44;56
+Male;Italy;94;77;98;88;72;98;81;67;93
+Male;Kazakhstan;71;63;80;45;40;51;36;32;41
+Male;Kenya;91;81;98;68;61;77;63;57;72
+Male;Kuwait;91;80;98;60;53;70;60;53;70
+Male;Kyrgyzstan;71;65;76;38;35;40;30;27;32
+Male;Lao People's Democratic Republic;51;46;56;41;37;45;40;36;45
+Male;Lebanon;75;61;85;75;61;85;72;59;82
+Male;Lesotho;96;89;98;72;67;83;68;63;78
+Male;Lithuania;60;53;67;37;33;41;34;30;38
+Male;Luxembourg;80;67;91;72;61;82;71;59;80
+Male;Malawi;90;84;98;74;70;81;70;65;76
+Male;Mauritius;26;22;30;26;22;30;17;15;20
+Male;Mexico;71;62;78;52;46;58;47;41;52
+Male;Mongolia;39;34;43;33;29;36;30;27;33
+Male;Montenegro;58;46;72;54;42;67;50;39;62
+Male;Morocco;75;66;84;58;52;65;53;47;60
+Male;Mozambique;73;68;79;47;44;51;36;34;39
+Male;Myanmar;66;53;80;66;53;80;62;50;76
+Male;Nepal;81;74;89;56;51;62;49;44;53
+Male;Netherlands;93;82;98;87;77;98;86;76;97
+Male;Nicaragua;88;71;98;57;46;72;45;36;57
+Male;Niger;64;59;70;55;51;60;40;36;43
+Male;Nigeria;57;52;63;49;45;55;43;39;48
+Male;North Macedonia;57;49;66;50;43;58;42;36;49
+Male;Oman;56;50;62;48;43;53;43;39;48
+Male;Peru;79;69;92;72;62;84;55;48;64
+Male;Qatar;41;35;49;30;25;36;27;23;32
+Male;Republic of Moldova;50;42;61;34;29;42;28;24;35
+Male;Rwanda;94;86;98;86;79;97;79;73;89
+Male;Saudi Arabia;97;89;98;97;88;98;96;88;98
+Male;Senegal;65;59;74;52;47;59;42;38;47
+Male;Singapore;88;68;98;82;63;93;81;62;92
+Male;Slovenia;85;67;98;79;62;95;76;60;92
+Male;South Africa;91;83;98;65;59;72;57;52;63
+Male;Sri Lanka;46;44;48;40;38;42;36;35;38
+Male;Suriname;47;41;54;39;34;45;35;30;40
+Male;Switzerland;92;76;98;89;73;98;85;70;98
+Male;Tajikistan;54;49;62;40;36;45;28;25;32
+Male;Thailand;78;67;90;70;60;81;68;59;79
+Male;Uganda;88;83;96;70;66;76;63;59;68
+Male;Ukraine;72;63;81;56;49;63;53;46;60
+Male;United Republic of Tanzania;81;76;88;59;56;65;52;49;56
+Male;Uruguay;88;69;98;57;45;77;54;42;73
+Male;Zambia;88;83;97;80;76;87;72;68;79
+Female;Albania;78;69;87;53;47;59;42;37;47
+Female;Algeria;87;81;92;78;72;82;70;65;74
+Female;Armenia;61;58;65;52;49;55;48;46;51
+Female;Australia;90;81;98;82;74;91;79;72;87
+Female;Azerbaijan;85;71;98;70;59;82;63;52;74
+Female;Barbados;94;85;98;70;62;78;62;56;69
+Female;Belarus;83;67;98;83;67;98;62;51;79
+Female;Belize;85;78;92;45;41;49;26;24;28
+Female;Bhutan;50;42;58;48;40;55;45;37;51
+Female;Botswana;95;89;98;92;86;97;89;83;93
+Female;Bulgaria;83;73;92;50;45;56;47;42;53
+Female;Cape Verde;87;77;98;87;77;98;41;36;48
+Female;Cambodia;83;72;95;82;71;95;80;69;92
+Female;Chile;90;83;97;66;61;72;58;53;63
+Female;Colombia;82;67;98;76;62;91;65;54;78
+Female;Comoros;63;37;98;63;36;98;53;30;98
+Female;Cuba;78;69;86;72;64;79;48;43;54
+Female;Czechia;67;59;77;58;52;67;54;48;63
+Female;Ivory Coast;84;76;94;68;61;76;54;49;61
+Female;Djibouti;61;48;86;24;19;34;16;12;22
+Female;Dominican Republic;92;75;98;50;41;57;42;34;48
+Female;Ecuador;83;73;93;67;59;76;53;47;60
+Female;El Salvador;84;77;90;63;57;67;57;52;61
+Female;Eritrea;73;58;92;61;48;77;53;42;67
+Female;Eswatini;98;90;98;89;82;98;87;79;96
+Female;Ethiopia;87;73;98;74;62;90;67;56;82
+Female;Fiji;35;25;63;29;20;51;19;13;34
+Female;Georgia;81;77;86;74;70;78;67;63;71
+Female;Ghana;69;60;79;42;36;48;28;25;33
+Female;Guatemala;78;74;85;65;62;71;59;56;63
+Female;Haiti;77;69;87;67;60;76;54;48;61
+Female;Honduras;75;68;81;63;57;68;55;49;59
+Female;Italy;94;81;98;87;75;98;78;67;88
+Female;Kazakhstan;87;78;97;64;57;70;51;46;56
+Female;Kenya;95;85;98;80;72;92;74;67;85
+Female;Kuwait;86;76;97;86;76;97;85;75;96
+Female;Kyrgyzstan;68;63;72;46;42;48;39;36;41
+Female;Lao People's Democratic Republic;62;55;69;50;45;56;50;44;55
+Female;Lebanon;58;53;63;51;47;55;48;44;53
+Female;Lesotho;98;90;98;80;73;90;75;69;84
+Female;Lithuania;63;56;70;39;35;44;37;33;41
+Female;Luxembourg;83;74;93;73;65;82;71;63;80
+Female;Malawi;96;91;98;89;85;98;84;79;92
+Female;Mauritius;21;18;25;21;18;25;14;12;17
+Female;Mexico;75;69;81;53;49;58;48;44;52
+Female;Mongolia;47;42;52;35;32;39;35;32;39
+Female;Montenegro;51;42;60;51;42;60;51;42;60
+Female;Morocco;81;73;89;63;57;69;58;53;64
+Female;Mozambique;84;79;91;66;62;71;52;49;56
+Female;Myanmar;69;58;82;69;58;82;66;55;78
+Female;Nepal;71;65;77;66;60;71;59;53;63
+Female;Netherlands;93;82;98;85;76;96;83;74;94
+Female;Nicaragua;89;71;98;56;45;71;45;35;56
+Female;Niger;82;75;90;81;74;89;60;55;66
+Female;Nigeria;66;61;73;63;59;70;55;51;61
+Female;North Macedonia;83;72;94;71;62;80;59;52;67
+Female;Oman;78;71;85;69;63;76;64;59;70
+Female;Peru;92;79;98;83;71;98;64;55;76
+Female;Qatar;54;46;63;51;44;60;45;39;53
+Female;Republic of Moldova;73;61;89;53;45;65;45;38;55
+Female;Rwanda;95;88;98;84;78;94;78;72;86
+Female;Saudi Arabia;82;73;91;82;73;91;80;72;89
+Female;Senegal;91;82;98;90;81;98;76;68;87
+Female;Singapore;89;79;97;81;72;88;79;70;86
+Female;Slovenia;80;70;91;68;59;76;66;57;74
+Female;South Africa;95;88;98;76;70;82;68;63;74
+Female;Sri Lanka;64;60;67;43;40;45;40;38;42
+Female;Suriname;58;50;66;48;41;55;44;38;50
+Female;Switzerland;91;79;98;88;77;98;84;74;95
+Female;Tajikistan;75;65;87;67;58;78;51;44;59
+Female;Thailand;78;68;90;69;60;79;67;58;76
+Female;Uganda;93;88;98;79;74;86;72;68;79
+Female;Ukraine;68;60;79;56;49;65;53;47;62
+Female;United Republic of Tanzania;85;80;93;66;63;73;59;56;64
+Female;Uruguay;90;70;98;73;57;98;69;53;94
+Female;Zambia;93;88;98;83;79;89;76;72;82
