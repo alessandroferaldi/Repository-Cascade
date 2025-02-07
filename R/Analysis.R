@@ -593,7 +593,7 @@ step3.2_female_higher_HIV_AIDS<-step3.2_female_higher
 
 
 ######################
-######## Stratify Health Pathways by Income group ############
+######## Stratify Sex Differences by Income group ############
 male_higher_sodium_HI<-male_higher_sodium %>% filter(mal.wbinc2023=="H")
 male_higher_sodium_UM<-male_higher_sodium %>% filter(mal.wbinc2023=="UM")
 male_higher_sodium_LM<-male_higher_sodium %>% filter(mal.wbinc2023=="LM")
@@ -801,7 +801,7 @@ step3_female_higher_HIV_AIDS_UM<-step3_female_higher_HIV_AIDS %>% filter(mal.wbi
 step3_female_higher_HIV_AIDS_LM<-step3_female_higher_HIV_AIDS %>% filter(mal.wbinc2023=="LM")
 step3_female_higher_HIV_AIDS_LO<-step3_female_higher_HIV_AIDS %>% filter(mal.wbinc2023=="L")
 
-######## Stratify Results Health Pathways by Regions ############
+######## Stratify Sex Differences by Regions ############
 male_higher_sodium_ECA<-male_higher_sodium %>% filter(mal.World.Bank.Region=="Europe and Central Asia")
 male_higher_sodium_SAS<-male_higher_sodium %>% filter(mal.World.Bank.Region=="South Asia")
 male_higher_sodium_SSA<-male_higher_sodium %>% filter(mal.World.Bank.Region=="Sub-Saharan Africa")
