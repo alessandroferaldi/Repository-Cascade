@@ -7,10 +7,18 @@ Original data on risk factors, disease prevalence, and death rates are available
 ## R scripts:
 
 ### 1. Data Processing.R
+- Data Import
+- Data Processing
+- Computation of 95% condifence intervals for diabetes care cascade
+
 
 ### 2. Analysis.R
+- Analysis of Country-specific Sex Differences
+- Stratification of Sex Differences by World Bank income groups and regions
 
 ### 3. Figures.R 
+- Plot Figure 2
+- Plot figures in Supporting Information
 
 For questions about the code, please contact Alessandro Feraldi at _alessandro.feraldi@uniroma1.it_.
 
