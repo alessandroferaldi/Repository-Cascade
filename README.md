@@ -7,6 +7,10 @@ Original data on risk factors, disease prevalence, and death rates are available
 ## R scripts:
 
 ### 1. Data Processing.R
+- Import Data 
+- Data processing
+- Compute 95% condifence intervals for diabetes care cascade
+
 
 ### 2. Analysis.R
 
