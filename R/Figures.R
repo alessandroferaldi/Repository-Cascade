@@ -1,9 +1,9 @@
 
 ######## Source Clean Data ##############
-source(file="~/Desktop/Data Processing.R")
+source(file="Data Processing.R")
 
 ######## Source Analysis.R to get Results ##############
-source(file="~/Desktop/Analysis.R")
+source(file="Analysis.R")
 
 ######## Plot Health Pathways - Overall ############
 ##### Hypertension #####
