@@ -1,12 +1,12 @@
 
 ######## Source Clean Data ##############
-source(file="Data Processing.R")
+source(file="~/Desktop/Data Processing.R")
 
 ######## Source Analysis.R to get Results ##############
-source(file="Analysis.R")
+source(file="~/Desktop/Analysis.R")
 
-######## Plot Health Pathways - Overall ############
-##### Hypertension #####
+######## Plot Health Pathways - Overall - Figure 2 ############
+##### Hypertension - Panel A #####
 #### Males 
 hyp_path_male<-data.frame(
   #age=row.names(cbind(table(male_higher_sodium$mal.Age.group.name))),
@@ -39,12 +39,12 @@ hyp_path_male_OV<-hyp_path_male
 hyp_path_female_OV<-hyp_path_female
 
 #### Proportions
-hyp_path_male_prop<-data.frame(age=row.names(hyp_path_male),
+hyp_path_male_prop_OV<-data.frame(age=row.names(hyp_path_male),
                                ceiling(hyp_path_male[,1:6]/204*100),
                                ceiling(hyp_path_male[,7:9]/200*100),
                                mort=ceiling(hyp_path_male[,10]/204*100))
 
-hyp_path_female_prop<-data.frame(age=row.names(hyp_path_female),
+hyp_path_female_prop_OV<-data.frame(age=row.names(hyp_path_female),
                                  ceiling(hyp_path_female[,1:6]/204*100),
                                  ceiling(hyp_path_female[,7:9]/200*100),
                                  mort=ceiling(hyp_path_female[,10]/204*100))
@@ -122,7 +122,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
   geom_text(aes(x = 8, y = 11, label = "Cascade"), size = 4.5);heatmap_plot
 
 
-##### Diabetes #####
+##### Diabetes  - Panel B #####
 #### Males 
 diab_path_male<-data.frame(
   #age=row.names(cbind(table(male_higher_sodium$mal.Age.group.name))),
@@ -153,6 +153,17 @@ diab_path_female<-data.frame(
 
 diab_path_male_OV<-diab_path_male
 diab_path_female_OV<-diab_path_female
+
+#### Proportions
+diab_path_male_prop_OV<-data.frame(age=row.names(diab_path_male),
+                                  ceiling(diab_path_male[,1:6]/204*100),
+                                  ceiling(diab_path_male[,7:9]/39*100),
+                                  mort=ceiling(diab_path_male[,10]/204*100))
+
+diab_path_female_prop_OV<-data.frame(age=row.names(diab_path_female),
+                                    ceiling(diab_path_female[,1:6]/204*100),
+                                    ceiling(diab_path_female[,7:9]/39*100),
+                                    mort=ceiling(diab_path_female[,10]/204*100))
 
 #### Female-Male difference
 diab_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -214,7 +225,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = " ",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female"
+    fill = "More Countries: \n\n Male > Female"
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 5.5, size = 1.2) +
@@ -224,7 +235,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
   geom_text(aes(x = 8, y = 11, label = "Cascade"), size = 4.5);heatmap_plot
 
 
-##### HIV/AIDS #####
+##### HIV/AIDS - Panel C #####
 #### Males 
 HIV_AIDS_path_male<-data.frame(
   #age=row.names(cbind(table(male_higher_sodium$mal.Age.group.name))),
@@ -249,6 +260,17 @@ HIV_AIDS_path_female<-data.frame(
 
 HIV_AIDS_path_male_OV<-HIV_AIDS_path_male
 HIV_AIDS_path_female_OV<-HIV_AIDS_path_female
+
+#### Proportions
+HIV_AIDS_path_male_prop_OV<-data.frame(age=row.names(HIV_AIDS_path_male),
+                                  ceiling(HIV_AIDS_path_male[,1:3]/204*100),
+                                  ceiling(HIV_AIDS_path_male[,4:6]/76*100),
+                                  mort=ceiling(HIV_AIDS_path_male[,7]/204*100))
+
+HIV_AIDS_path_female_prop_OV<-data.frame(age=row.names(HIV_AIDS_path_female),
+                                    ceiling(HIV_AIDS_path_female[,1:3]/204*100),
+                                    ceiling(HIV_AIDS_path_female[,4:6]/76*100),
+                                    mort=ceiling(HIV_AIDS_path_female[,7]/204*100))
 
 #### Female-Male difference
 HIV_AIDS_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -310,7 +332,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = "",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female      "
+    fill = "More Countries: \n\n Male > Female      "
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 2.5, size = 1.2) +
@@ -320,7 +342,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
   geom_text(aes(x = 5, y = 11, label = "Cascade"), size = 4.5);heatmap_plot
 
 
-######## Plot Health Pathways by Income ############
+######## Plot Health Pathways by Income - Figure A1 ############
 ##### Hypertension - High #####
 #### Males 
 hyp_path_male<-data.frame(
@@ -354,12 +376,12 @@ hyp_path_male_HI<-hyp_path_male
 hyp_path_female_HI<-hyp_path_female
 
 #### Proportions
-hyp_path_male_prop<-data.frame(age=row.names(hyp_path_male),
+hyp_path_male_prop_HI<-data.frame(age=row.names(hyp_path_male),
                                ceiling(hyp_path_male[,1:6]/67*100),
                                ceiling(hyp_path_male[,7:9]/63*100),
                                mort=ceiling(hyp_path_male[,10]/67*100))
 
-hyp_path_female_prop<-data.frame(age=row.names(hyp_path_female),
+hyp_path_female_prop_HI<-data.frame(age=row.names(hyp_path_female),
                                  ceiling(hyp_path_female[,1:6]/67*100),
                                  ceiling(hyp_path_female[,7:9]/63*100),
                                  mort=ceiling(hyp_path_female[,10]/67*100))
@@ -468,12 +490,12 @@ hyp_path_male_UM<-hyp_path_male
 hyp_path_female_UM<-hyp_path_female
 
 #### Proportions
-hyp_path_male_prop<-data.frame(age=row.names(hyp_path_male),
+hyp_path_male_prop_UM<-data.frame(age=row.names(hyp_path_male),
                                ceiling(hyp_path_male[,1:6]/54*100),
                                ceiling(hyp_path_male[,7:9]/54*100),
                                mort=ceiling(hyp_path_male[,10]/54*100))
 
-hyp_path_female_prop<-data.frame(age=row.names(hyp_path_female),
+hyp_path_female_prop_UM<-data.frame(age=row.names(hyp_path_female),
                                  ceiling(hyp_path_female[,1:6]/54*100),
                                  ceiling(hyp_path_female[,7:9]/54*100),
                                  mort=ceiling(hyp_path_female[,10]/54*100))
@@ -583,12 +605,12 @@ hyp_path_male_LM<-hyp_path_male
 hyp_path_female_LM<-hyp_path_female
 
 #### Proportions
-hyp_path_male_prop<-data.frame(age=row.names(hyp_path_male),
+hyp_path_male_prop_LM<-data.frame(age=row.names(hyp_path_male),
                                ceiling(hyp_path_male[,1:6]/54*100),
                                ceiling(hyp_path_male[,7:9]/54*100),
                                mort=ceiling(hyp_path_male[,10]/54*100))
 
-hyp_path_female_prop<-data.frame(age=row.names(hyp_path_female),
+hyp_path_female_prop_LM<-data.frame(age=row.names(hyp_path_female),
                                  ceiling(hyp_path_female[,1:6]/54*100),
                                  ceiling(hyp_path_female[,7:9]/54*100),
                                  mort=ceiling(hyp_path_female[,10]/54*100))
@@ -696,12 +718,12 @@ hyp_path_male_LO<-hyp_path_male
 hyp_path_female_LO<-hyp_path_female
 
 #### Proportions
-hyp_path_male_prop<-data.frame(age=row.names(hyp_path_male),
+hyp_path_male_prop_LO<-data.frame(age=row.names(hyp_path_male),
                                ceiling(hyp_path_male[,1:6]/26*100),
                                ceiling(hyp_path_male[,7:9]/26*100),
                                mort=ceiling(hyp_path_male[,10]/26*100))
 
-hyp_path_female_prop<-data.frame(age=row.names(hyp_path_female),
+hyp_path_female_prop_LO<-data.frame(age=row.names(hyp_path_female),
                                  ceiling(hyp_path_female[,1:6]/26*100),
                                  ceiling(hyp_path_female[,7:9]/26*100),
                                  mort=ceiling(hyp_path_female[,10]/26*100))
@@ -778,7 +800,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
 
 
 
-############################################
+######## Plot Health Pathways by Income - Figure A3 ############
 ##### Diabetes - High #####
 #### Males 
 diab_path_male<-data.frame(
@@ -810,6 +832,17 @@ diab_path_female<-data.frame(
 
 diab_path_male_HI<-diab_path_male
 diab_path_female_HI<-diab_path_female
+
+#### Proportions
+diab_path_male_prop_HI<-data.frame(age=row.names(diab_path_male),
+                                   ceiling(diab_path_male[,1:6]/67*100),
+                                   ceiling(diab_path_male[,7:9]/4*100),
+                                   mort=ceiling(diab_path_male[,10]/67*100))
+
+diab_path_female_prop_HI<-data.frame(age=row.names(diab_path_female),
+                                     ceiling(diab_path_female[,1:6]/67*100),
+                                     ceiling(diab_path_female[,7:9]/4*100),
+                                     mort=ceiling(diab_path_female[,10]/67*100))
 
 #### Female-Male difference
 diab_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -871,7 +904,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = " ",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female"
+    fill = "More Countries: \n\n Male > Female"
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 5.5, size = 1.2) +
@@ -913,6 +946,17 @@ diab_path_female<-data.frame(
 
 diab_path_male_UM<-diab_path_male
 diab_path_female_UM<-diab_path_female
+
+#### Proportions
+diab_path_male_prop_UM<-data.frame(age=row.names(diab_path_male),
+                                   ceiling(diab_path_male[,1:6]/54*100),
+                                   ceiling(diab_path_male[,7:9]/10*100),
+                                   mort=ceiling(diab_path_male[,10]/54*100))
+
+diab_path_female_prop_UM<-data.frame(age=row.names(diab_path_female),
+                                     ceiling(diab_path_female[,1:6]/54*100),
+                                     ceiling(diab_path_female[,7:9]/10*100),
+                                     mort=ceiling(diab_path_female[,10]/54*100))
 
 #### Female-Male difference
 diab_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -974,7 +1018,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = " ",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female"
+    fill = "More Countries: \n\n Male > Female"
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 5.5, size = 1.2) +
@@ -1017,6 +1061,17 @@ diab_path_female<-data.frame(
 
 diab_path_male_LM<-diab_path_male
 diab_path_female_LM<-diab_path_female
+
+#### Proportions
+diab_path_male_prop_LM<-data.frame(age=row.names(diab_path_male),
+                                   ceiling(diab_path_male[,1:6]/54*100),
+                                   ceiling(diab_path_male[,7:9]/20*100),
+                                   mort=ceiling(diab_path_male[,10]/54*100))
+
+diab_path_female_prop_LM<-data.frame(age=row.names(diab_path_female),
+                                     ceiling(diab_path_female[,1:6]/54*100),
+                                     ceiling(diab_path_female[,7:9]/20*100),
+                                     mort=ceiling(diab_path_female[,10]/54*100))
 
 #### Female-Male difference
 diab_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -1078,7 +1133,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = " ",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female"
+    fill = "More Countries: \n\n Male > Female"
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 5.5, size = 1.2) +
@@ -1120,6 +1175,17 @@ diab_path_female<-data.frame(
 
 diab_path_male_LO<-diab_path_male
 diab_path_female_LO<-diab_path_female
+
+#### Proportions
+diab_path_male_prop_LO<-data.frame(age=row.names(diab_path_male),
+                                   ceiling(diab_path_male[,1:6]/26*100),
+                                   ceiling(diab_path_male[,7:9]/5*100),
+                                   mort=ceiling(diab_path_male[,10]/26*100))
+
+diab_path_female_prop_LO<-data.frame(age=row.names(diab_path_female),
+                                     ceiling(diab_path_female[,1:6]/26*100),
+                                     ceiling(diab_path_female[,7:9]/5*100),
+                                     mort=ceiling(diab_path_female[,10]/26*100))
 
 #### Female-Male difference
 diab_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -1181,7 +1247,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = " ",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female"
+    fill = "More Countries: \n\n Male > Female"
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 5.5, size = 1.2) +
@@ -1192,7 +1258,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
 
 ####
 
-############################################
+######## Plot Health Pathways by Income - Figure A5 ############
 ##### HIV/AIDS - High #####
 #### Males 
 HIV_AIDS_path_male<-data.frame(
@@ -1218,6 +1284,17 @@ HIV_AIDS_path_female<-data.frame(
 
 HIV_AIDS_path_male_HI<-HIV_AIDS_path_male
 HIV_AIDS_path_female_HI<-HIV_AIDS_path_female
+
+#### Proportions
+HIV_AIDS_path_male_prop_HI<-data.frame(age=row.names(HIV_AIDS_path_male),
+                                       ceiling(HIV_AIDS_path_male[,1:3]/67*100),
+                                       ceiling(HIV_AIDS_path_male[,4:6]/16*100),
+                                       mort=ceiling(HIV_AIDS_path_male[,7]/67*100))
+
+HIV_AIDS_path_female_prop_HI<-data.frame(age=row.names(HIV_AIDS_path_female),
+                                         ceiling(HIV_AIDS_path_female[,1:3]/67*100),
+                                         ceiling(HIV_AIDS_path_female[,4:6]/16*100),
+                                         mort=ceiling(HIV_AIDS_path_female[,7]/67*100))
 
 #### Female-Male difference
 HIV_AIDS_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -1279,7 +1356,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = "",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female      "
+    fill = "More Countries: \n\n Male > Female      "
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 2.5, size = 1.2) +
@@ -1316,6 +1393,17 @@ HIV_AIDS_path_female<-data.frame(
 
 HIV_AIDS_path_male_UM<-HIV_AIDS_path_male
 HIV_AIDS_path_female_UM<-HIV_AIDS_path_female
+
+#### Proportions
+HIV_AIDS_path_male_prop_UM<-data.frame(age=row.names(HIV_AIDS_path_male),
+                                       ceiling(HIV_AIDS_path_male[,1:3]/54*100),
+                                       ceiling(HIV_AIDS_path_male[,4:6]/25*100),
+                                       mort=ceiling(HIV_AIDS_path_male[,7]/54*100))
+
+HIV_AIDS_path_female_prop_UM<-data.frame(age=row.names(HIV_AIDS_path_female),
+                                         ceiling(HIV_AIDS_path_female[,1:3]/54*100),
+                                         ceiling(HIV_AIDS_path_female[,4:6]/25*100),
+                                         mort=ceiling(HIV_AIDS_path_female[,7]/54*100))
 
 #### Female-Male difference
 HIV_AIDS_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -1377,7 +1465,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = "",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female      "
+    fill = "More Countries: \n\n Male > Female      "
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 2.5, size = 1.2) +
@@ -1412,6 +1500,17 @@ HIV_AIDS_path_female<-data.frame(
 
 HIV_AIDS_path_male_LM<-HIV_AIDS_path_male
 HIV_AIDS_path_female_LM<-HIV_AIDS_path_female
+
+#### Proportions
+HIV_AIDS_path_male_prop_LM<-data.frame(age=row.names(HIV_AIDS_path_male),
+                                       ceiling(HIV_AIDS_path_male[,1:3]/54*100),
+                                       ceiling(HIV_AIDS_path_male[,4:6]/28*100),
+                                       mort=ceiling(HIV_AIDS_path_male[,7]/54*100))
+
+HIV_AIDS_path_female_prop_LM<-data.frame(age=row.names(HIV_AIDS_path_female),
+                                         ceiling(HIV_AIDS_path_female[,1:3]/54*100),
+                                         ceiling(HIV_AIDS_path_female[,4:6]/28*100),
+                                         mort=ceiling(HIV_AIDS_path_female[,7]/54*100))
 
 #### Female-Male difference
 HIV_AIDS_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -1473,7 +1572,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = "",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female      "
+    fill = "More Countries: \n\n Male > Female      "
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 2.5, size = 1.2) +
@@ -1508,6 +1607,17 @@ HIV_AIDS_path_female<-data.frame(
 
 HIV_AIDS_path_male_LO<-HIV_AIDS_path_male
 HIV_AIDS_path_female_LO<-HIV_AIDS_path_female
+
+#### Proportions
+HIV_AIDS_path_male_prop_LO<-data.frame(age=row.names(HIV_AIDS_path_male),
+                                       ceiling(HIV_AIDS_path_male[,1:3]/26*100),
+                                       ceiling(HIV_AIDS_path_male[,4:6]/7*100),
+                                       mort=ceiling(HIV_AIDS_path_male[,7]/26*100))
+
+HIV_AIDS_path_female_prop_LO<-data.frame(age=row.names(HIV_AIDS_path_female),
+                                         ceiling(HIV_AIDS_path_female[,1:3]/26*100),
+                                         ceiling(HIV_AIDS_path_female[,4:6]/7*100),
+                                         mort=ceiling(HIV_AIDS_path_female[,7]/26*100))
 
 #### Female-Male difference
 HIV_AIDS_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -1569,7 +1679,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = "",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female      "
+    fill = "More Countries: \n\n Male > Female      "
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 2.5, size = 1.2) +
@@ -1579,7 +1689,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
   geom_text(aes(x = 5, y = 11, label = "Cascade"), size = 4.5);heatmap_plot
 
 ############################################
-######## Plot Health Pathways by Region ############
+######## Plot Health Pathways by Region - Figure A2 ############
 ##### Hypertension - Europe and Central Asia #####
 #### Males 
 hyp_path_male<-data.frame(
@@ -1613,12 +1723,12 @@ hyp_path_male_ECA<-hyp_path_male
 hyp_path_female_ECA<-hyp_path_female
 
 #### Proportions
-hyp_path_male_prop<-data.frame(age=row.names(hyp_path_male),
+hyp_path_male_prop_ECA<-data.frame(age=row.names(hyp_path_male),
                                ceiling(hyp_path_male[,1:6]/52*100),
                                ceiling(hyp_path_male[,7:9]/50*100),
                                mort=ceiling(hyp_path_male[,10]/52*100))
 
-hyp_path_female_prop<-data.frame(age=row.names(hyp_path_female),
+hyp_path_female_prop_ECA<-data.frame(age=row.names(hyp_path_female),
                                  ceiling(hyp_path_female[,1:6]/52*100),
                                  ceiling(hyp_path_female[,7:9]/50*100),
                                  mort=ceiling(hyp_path_female[,10]/52*100))
@@ -1729,12 +1839,12 @@ hyp_path_male_SAS<-hyp_path_male
 hyp_path_female_SAS<-hyp_path_female
 
 #### Proportions
-hyp_path_male_prop<-data.frame(age=row.names(hyp_path_male),
+hyp_path_male_prop_SAS<-data.frame(age=row.names(hyp_path_male),
                                ceiling(hyp_path_male[,1:6]/8*100),
                                ceiling(hyp_path_male[,7:9]/8*100),
                                mort=ceiling(hyp_path_male[,10]/8*100))
 
-hyp_path_female_prop<-data.frame(age=row.names(hyp_path_female),
+hyp_path_female_prop_SAS<-data.frame(age=row.names(hyp_path_female),
                                  ceiling(hyp_path_female[,1:6]/8*100),
                                  ceiling(hyp_path_female[,7:9]/8*100),
                                  mort=ceiling(hyp_path_female[,10]/8*100))
@@ -1842,12 +1952,12 @@ hyp_path_male_SSA<-hyp_path_male
 hyp_path_female_SSA<-hyp_path_female
 
 #### Proportions
-hyp_path_male_prop<-data.frame(age=row.names(hyp_path_male),
+hyp_path_male_prop_SSA<-data.frame(age=row.names(hyp_path_male),
                                ceiling(hyp_path_male[,1:6]/44*100),
                                ceiling(hyp_path_male[,7:9]/44*100),
                                mort=ceiling(hyp_path_male[,10]/44*100))
 
-hyp_path_female_prop<-data.frame(age=row.names(hyp_path_female),
+hyp_path_female_prop_SSA<-data.frame(age=row.names(hyp_path_female),
                                  ceiling(hyp_path_female[,1:6]/44*100),
                                  ceiling(hyp_path_female[,7:9]/44*100),
                                  mort=ceiling(hyp_path_female[,10]/44*100))
@@ -1955,12 +2065,12 @@ hyp_path_male_MEN<-hyp_path_male
 hyp_path_female_MEN<-hyp_path_female
 
 #### Proportions
-hyp_path_male_prop<-data.frame(age=row.names(hyp_path_male),
+hyp_path_male_prop_MEN<-data.frame(age=row.names(hyp_path_male),
                                ceiling(hyp_path_male[,1:6]/22*100),
                                ceiling(hyp_path_male[,7:9]/22*100),
                                mort=ceiling(hyp_path_male[,10]/22*100))
 
-hyp_path_female_prop<-data.frame(age=row.names(hyp_path_female),
+hyp_path_female_prop_MEN<-data.frame(age=row.names(hyp_path_female),
                                  ceiling(hyp_path_female[,1:6]/22*100),
                                  ceiling(hyp_path_female[,7:9]/22*100),
                                  mort=ceiling(hyp_path_female[,10]/22*100))
@@ -2068,12 +2178,12 @@ hyp_path_male_LAT<-hyp_path_male
 hyp_path_female_LAT<-hyp_path_female
 
 #### Proportions
-hyp_path_male_prop<-data.frame(age=row.names(hyp_path_male),
+hyp_path_male_prop_LAT<-data.frame(age=row.names(hyp_path_male),
                                ceiling(hyp_path_male[,1:6]/38*100),
                                ceiling(hyp_path_male[,7:9]/37*100),
                                mort=ceiling(hyp_path_male[,10]/38*100))
 
-hyp_path_female_prop<-data.frame(age=row.names(hyp_path_female),
+hyp_path_female_prop_LAT<-data.frame(age=row.names(hyp_path_female),
                                  ceiling(hyp_path_female[,1:6]/38*100),
                                  ceiling(hyp_path_female[,7:9]/37*100),
                                  mort=ceiling(hyp_path_female[,10]/38*100))
@@ -2182,12 +2292,12 @@ hyp_path_male_EAP<-hyp_path_male
 hyp_path_female_EAP<-hyp_path_female
 
 #### Proportions
-hyp_path_male_prop<-data.frame(age=row.names(hyp_path_male),
+hyp_path_male_prop_EAP<-data.frame(age=row.names(hyp_path_male),
                                ceiling(hyp_path_male[,1:6]/34*100),
                                ceiling(hyp_path_male[,7:9]/33*100),
                                mort=ceiling(hyp_path_male[,10]/34*100))
 
-hyp_path_female_prop<-data.frame(age=row.names(hyp_path_female),
+hyp_path_female_prop_EAP<-data.frame(age=row.names(hyp_path_female),
                                  ceiling(hyp_path_female[,1:6]/34*100),
                                  ceiling(hyp_path_female[,7:9]/33*100),
                                  mort=ceiling(hyp_path_female[,10]/34*100))
@@ -2296,12 +2406,12 @@ hyp_path_male_NOA<-hyp_path_male
 hyp_path_female_NOA<-hyp_path_female
 
 #### Proportions
-hyp_path_male_prop<-data.frame(age=row.names(hyp_path_male),
+hyp_path_male_prop_NOA<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
                                ceiling(hyp_path_male[,1:6]/8*100),
                                ceiling(hyp_path_male[,7:9]/8*100),
                                mort=ceiling(hyp_path_male[,10]/8*100))
 
-hyp_path_female_prop<-data.frame(age=row.names(hyp_path_female),
+hyp_path_female_prop_NOA<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
                                  ceiling(hyp_path_female[,1:6]/8*100),
                                  ceiling(hyp_path_female[,7:9]/8*100),
                                  mort=ceiling(hyp_path_female[,10]/8*100))
@@ -2377,7 +2487,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
 
 
 
-######################
+######## Plot Health Pathways by Region - Figure A4 ############
 ##### Diabetes - Europe and Central Asia #####
 #### Males 
 diab_path_male<-data.frame(
@@ -2409,6 +2519,17 @@ diab_path_female<-data.frame(
 
 diab_path_male_ECA<-diab_path_male
 diab_path_female_ECA<-diab_path_female
+
+#### Proportions
+diab_path_male_prop_ECA<-data.frame(age=row.names(diab_path_male),
+                                   ceiling(diab_path_male[,1:6]/50*100),
+                                   ceiling(diab_path_male[,7:9]/8*100),
+                                   mort=ceiling(diab_path_male[,10]/50*100))
+
+diab_path_female_prop_ECA<-data.frame(age=row.names(diab_path_female),
+                                     ceiling(diab_path_female[,1:6]/50*100),
+                                     ceiling(diab_path_female[,7:9]/8*100),
+                                     mort=ceiling(diab_path_female[,10]/50*100))
 
 #### Female-Male difference
 diab_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -2470,7 +2591,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = " ",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female"
+    fill = "More Countries: \n\n Male > Female"
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 5.5, size = 1.2) +
@@ -2512,6 +2633,17 @@ diab_path_female<-data.frame(
 
 diab_path_male_SAS<-diab_path_male
 diab_path_female_SAS<-diab_path_female
+
+#### Proportions
+diab_path_male_prop_SAS<-data.frame(age=row.names(diab_path_male),
+                                    ceiling(diab_path_male[,1:6]/8*100),
+                                    ceiling(diab_path_male[,7:9]/4*100),
+                                    mort=ceiling(diab_path_male[,10]/8*100))
+
+diab_path_female_prop_SAS<-data.frame(age=row.names(diab_path_female),
+                                      ceiling(diab_path_female[,1:6]/8*100),
+                                      ceiling(diab_path_female[,7:9]/4*100),
+                                      mort=ceiling(diab_path_female[,10]/8*100))
 
 #### Female-Male difference
 diab_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -2573,7 +2705,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = " ",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female"
+    fill = "More Countries: \n\n Male > Female"
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 5.5, size = 1.2) +
@@ -2615,6 +2747,17 @@ diab_path_female<-data.frame(
 
 diab_path_male_SSA<-diab_path_male
 diab_path_female_SSA<-diab_path_female
+
+#### Proportions
+diab_path_male_prop_SSA<-data.frame(age=row.names(diab_path_male),
+                                    ceiling(diab_path_male[,1:6]/44*100),
+                                    ceiling(diab_path_male[,7:9]/11*100),
+                                    mort=ceiling(diab_path_male[,10]/44*100))
+
+diab_path_female_prop_SSA<-data.frame(age=row.names(diab_path_female),
+                                      ceiling(diab_path_female[,1:6]/44*100),
+                                      ceiling(diab_path_female[,7:9]/11*100),
+                                      mort=ceiling(diab_path_female[,10]/44*100))
 
 #### Female-Male difference
 diab_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -2676,7 +2819,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = " ",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female"
+    fill = "More Countries: \n\n Male > Female"
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 5.5, size = 1.2) +
@@ -2719,6 +2862,17 @@ diab_path_female<-data.frame(
 
 diab_path_male_MEN<-diab_path_male
 diab_path_female_MEN<-diab_path_female
+
+#### Proportions
+diab_path_male_prop_MEN<-data.frame(age=row.names(diab_path_male),
+                                    ceiling(diab_path_male[,1:6]/22*100),
+                                    ceiling(diab_path_male[,7:9]/6*100),
+                                    mort=ceiling(diab_path_male[,10]/22*100))
+
+diab_path_female_prop_MEN<-data.frame(age=row.names(diab_path_female),
+                                      ceiling(diab_path_female[,1:6]/22*100),
+                                      ceiling(diab_path_female[,7:9]/6*100),
+                                      mort=ceiling(diab_path_female[,10]/22*100))
 
 #### Female-Male difference
 diab_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -2780,7 +2934,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = " ",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female"
+    fill = "More Countries: \n\n Male > Female"
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 5.5, size = 1.2) +
@@ -2823,6 +2977,17 @@ diab_path_female<-data.frame(
 
 diab_path_male_LAT<-diab_path_male
 diab_path_female_LAT<-diab_path_female
+
+#### Proportions
+diab_path_male_prop_LAT<-data.frame(age=row.names(diab_path_male),
+                                    ceiling(diab_path_male[,1:6]/38*100),
+                                    ceiling(diab_path_male[,7:9]/2*100),
+                                    mort=ceiling(diab_path_male[,10]/38*100))
+
+diab_path_female_prop_LAT<-data.frame(age=row.names(diab_path_female),
+                                      ceiling(diab_path_female[,1:6]/38*100),
+                                      ceiling(diab_path_female[,7:9]/2*100),
+                                      mort=ceiling(diab_path_female[,10]/38*100))
 
 #### Female-Male difference
 diab_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -2884,7 +3049,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = " ",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female"
+    fill = "More Countries: \n\n Male > Female"
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 5.5, size = 1.2) +
@@ -2928,6 +3093,16 @@ diab_path_female<-data.frame(
 diab_path_male_EAP<-diab_path_male
 diab_path_female_EAP<-diab_path_female
 
+#### Proportions
+diab_path_male_prop_EAP<-data.frame(age=row.names(diab_path_male),
+                                    ceiling(diab_path_male[,1:6]/34*100),
+                                    ceiling(diab_path_male[,7:9]/8*100),
+                                    mort=ceiling(diab_path_male[,10]/34*100))
+
+diab_path_female_prop_EAP<-data.frame(age=row.names(diab_path_female),
+                                      ceiling(diab_path_female[,1:6]/34*100),
+                                      ceiling(diab_path_female[,7:9]/8*100),
+                                      mort=ceiling(diab_path_female[,10]/34*100))
 #### Female-Male difference
 diab_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
                            diab_path_female-diab_path_male);rownames(diab_path_diff)<-NULL
@@ -2988,7 +3163,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = " ",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female"
+    fill = "More Countries: \n\n Male > Female"
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 5.5, size = 1.2) +
@@ -3031,6 +3206,17 @@ diab_path_female<-data.frame(
 
 diab_path_male_NOA<-diab_path_male
 diab_path_female_NOA<-diab_path_female
+
+#### Proportions
+diab_path_male_prop_NOA<-data.frame(age=row.names(diab_path_male),
+                                    ceiling(diab_path_male[,1:6]/3*100),
+                                    ceiling(diab_path_male[,7:9]/0*100),
+                                    mort=ceiling(diab_path_male[,10]/3*100))
+
+diab_path_female_prop_NOA<-data.frame(age=row.names(diab_path_male),
+                                      ceiling(diab_path_female[,1:6]/3*100),
+                                      ceiling(diab_path_female[,7:9]/0*100),
+                                      mort=ceiling(diab_path_female[,10]/3*100))
 
 #### Female-Male difference
 diab_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -3093,7 +3279,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = " ",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female"
+    fill = "More Countries: \n\n Male > Female"
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 5.5, size = 1.2) +
@@ -3103,7 +3289,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
   geom_text(aes(x = 8, y = 11, label = "Cascade"), size = 4.5);heatmap_plot
 
 
-##################
+######## Plot Health Pathways by Income - Figure A6 ############
 ##### HIV/AIDS - Europe and Central Asia #####
 #### Males 
 HIV_AIDS_path_male<-data.frame(
@@ -3129,6 +3315,17 @@ HIV_AIDS_path_female<-data.frame(
 
 HIV_AIDS_path_male_ECA<-HIV_AIDS_path_male
 HIV_AIDS_path_female_ECA<-HIV_AIDS_path_female
+
+#### Proportions
+HIV_AIDS_path_male_prop_ECA<-data.frame(age=row.names(HIV_AIDS_path_male),
+                                       ceiling(HIV_AIDS_path_male[,1:3]/50*100),
+                                       ceiling(HIV_AIDS_path_male[,4:6]/20*100),
+                                       mort=ceiling(HIV_AIDS_path_male[,7]/50*100))
+
+HIV_AIDS_path_female_prop_ECA<-data.frame(age=row.names(HIV_AIDS_path_female),
+                                         ceiling(HIV_AIDS_path_female[,1:3]/50*100),
+                                         ceiling(HIV_AIDS_path_female[,4:6]/20*100),
+                                         mort=ceiling(HIV_AIDS_path_female[,7]/50*100))
 
 #### Female-Male difference
 HIV_AIDS_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -3190,7 +3387,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = "",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female      "
+    fill = "More Countries: \n\n Male > Female      "
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 2.5, size = 1.2) +
@@ -3225,6 +3422,17 @@ HIV_AIDS_path_female<-data.frame(
 
 HIV_AIDS_path_male_SAS<-HIV_AIDS_path_male
 HIV_AIDS_path_female_SAS<-HIV_AIDS_path_female
+
+#### Proportions
+HIV_AIDS_path_male_prop_SAS<-data.frame(age=row.names(HIV_AIDS_path_male),
+                                       ceiling(HIV_AIDS_path_male[,1:3]/8*100),
+                                       ceiling(HIV_AIDS_path_male[,4:6]/3*100),
+                                       mort=ceiling(HIV_AIDS_path_male[,7]/8*100))
+
+HIV_AIDS_path_female_prop_SAS<-data.frame(age=row.names(HIV_AIDS_path_female),
+                                         ceiling(HIV_AIDS_path_female[,1:3]/8*100),
+                                         ceiling(HIV_AIDS_path_female[,4:6]/3*100),
+                                         mort=ceiling(HIV_AIDS_path_female[,7]/8*100))
 
 #### Female-Male difference
 HIV_AIDS_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -3286,7 +3494,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = "",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female      "
+    fill = "More Countries: \n\n Male > Female      "
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 2.5, size = 1.2) +
@@ -3321,6 +3529,17 @@ HIV_AIDS_path_female<-data.frame(
 
 HIV_AIDS_path_male_SSA<-HIV_AIDS_path_male
 HIV_AIDS_path_female_SSA<-HIV_AIDS_path_female
+
+#### Proportions
+HIV_AIDS_path_male_prop_SSA<-data.frame(age=row.names(HIV_AIDS_path_male),
+                                       ceiling(HIV_AIDS_path_male[,1:3]/44*100),
+                                       ceiling(HIV_AIDS_path_male[,4:6]/21*100),
+                                       mort=ceiling(HIV_AIDS_path_male[,7]/44*100))
+
+HIV_AIDS_path_female_prop_SSA<-data.frame(age=row.names(HIV_AIDS_path_female),
+                                         ceiling(HIV_AIDS_path_female[,1:3]/44*100),
+                                         ceiling(HIV_AIDS_path_female[,4:6]/21*100),
+                                         mort=ceiling(HIV_AIDS_path_female[,7]/44*100))
 
 #### Female-Male difference
 HIV_AIDS_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -3382,7 +3601,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = "",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female      "
+    fill = "More Countries: \n\n Male > Female      "
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 2.5, size = 1.2) +
@@ -3417,6 +3636,17 @@ HIV_AIDS_path_female<-data.frame(
 
 HIV_AIDS_path_male_MEN<-HIV_AIDS_path_male
 HIV_AIDS_path_female_MEN<-HIV_AIDS_path_female
+
+#### Proportions
+HIV_AIDS_path_male_prop_MEN<-data.frame(age=row.names(HIV_AIDS_path_male),
+                                       ceiling(HIV_AIDS_path_male[,1:3]/22*100),
+                                       ceiling(HIV_AIDS_path_male[,4:6]/8*100),
+                                       mort=ceiling(HIV_AIDS_path_male[,7]/22*100))
+
+HIV_AIDS_path_female_prop_MEN<-data.frame(age=row.names(HIV_AIDS_path_female),
+                                         ceiling(HIV_AIDS_path_female[,1:3]/22*100),
+                                         ceiling(HIV_AIDS_path_female[,4:6]/8*100),
+                                         mort=ceiling(HIV_AIDS_path_female[,7]/22*100))
 
 #### Female-Male difference
 HIV_AIDS_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -3478,7 +3708,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = "",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female      "
+    fill = "More Countries: \n\n Male > Female      "
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 2.5, size = 1.2) +
@@ -3514,6 +3744,17 @@ HIV_AIDS_path_female<-data.frame(
 
 HIV_AIDS_path_male_LAT<-HIV_AIDS_path_male
 HIV_AIDS_path_female_LAT<-HIV_AIDS_path_female
+
+#### Proportions
+HIV_AIDS_path_male_prop_LAT<-data.frame(age=row.names(HIV_AIDS_path_male),
+                                       ceiling(HIV_AIDS_path_male[,1:3]/37*100),
+                                       ceiling(HIV_AIDS_path_male[,4:6]/16*100),
+                                       mort=ceiling(HIV_AIDS_path_male[,7]/37*100))
+
+HIV_AIDS_path_female_prop_LAT<-data.frame(age=row.names(HIV_AIDS_path_male),
+                                         ceiling(HIV_AIDS_path_female[,1:3]/37*100),
+                                         ceiling(HIV_AIDS_path_female[,4:6]/16*100),
+                                         mort=ceiling(HIV_AIDS_path_female[,7]/37*100))
 
 #### Female-Male difference
 HIV_AIDS_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -3575,7 +3816,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = "",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female      "
+    fill = "More Countries: \n\n Male > Female      "
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 2.5, size = 1.2) +
@@ -3610,6 +3851,17 @@ HIV_AIDS_path_female<-data.frame(
 
 HIV_AIDS_path_male_EAP<-HIV_AIDS_path_male
 HIV_AIDS_path_female_EAP<-HIV_AIDS_path_female
+
+#### Proportions
+HIV_AIDS_path_male_prop_EAP<-data.frame(age=row.names(HIV_AIDS_path_male),
+                                       ceiling(HIV_AIDS_path_male[,1:3]/34*100),
+                                       ceiling(HIV_AIDS_path_male[,4:6]/8*100),
+                                       mort=ceiling(HIV_AIDS_path_male[,7]/34*100))
+
+HIV_AIDS_path_female_prop_EAP<-data.frame(age=row.names(HIV_AIDS_path_female),
+                                         ceiling(HIV_AIDS_path_female[,1:3]/34*100),
+                                         ceiling(HIV_AIDS_path_female[,4:6]/8*100),
+                                         mort=ceiling(HIV_AIDS_path_female[,7]/34*100))
 
 #### Female-Male difference
 HIV_AIDS_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -3671,7 +3923,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = "",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female      "
+    fill = "More Countries: \n\n Male > Female      "
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 2.5, size = 1.2) +
@@ -3705,6 +3957,17 @@ HIV_AIDS_path_female<-data.frame(
 
 HIV_AIDS_path_male_NOA<-HIV_AIDS_path_male
 HIV_AIDS_path_female_NOA<-HIV_AIDS_path_female
+
+#### Proportions
+HIV_AIDS_path_male_prop_NOA<-data.frame(age=row.names(HIV_AIDS_path_male),
+                                       ceiling(HIV_AIDS_path_male[,1:3]/3*100),
+                                       ceiling(HIV_AIDS_path_male[,4:6]/0*100),
+                                       mort=ceiling(HIV_AIDS_path_male[,7]/3*100))
+
+HIV_AIDS_path_female_prop_NOA<-data.frame(age=row.names(HIV_AIDS_path_male),
+                                         ceiling(HIV_AIDS_path_female[,1:3]/3*100),
+                                         ceiling(HIV_AIDS_path_female[,4:6]/0*100),
+                                         mort=ceiling(HIV_AIDS_path_female[,7]/3*100))
 
 #### Female-Male difference
 HIV_AIDS_path_diff<-data.frame(age=row.names(cbind(table(female_higher_sodium$mal.Age.group.name))),
@@ -3767,7 +4030,7 @@ heatmap_plot <- ggplot(melted_df, aes(x = variable, y = Age_Group, fill = fill_c
     x = "",
     y = "Age group",
     title = " ",
-    fill = "% Countries \n\n Male > Female      "
+    fill = "More Countries: \n\n Male > Female      "
   ) +
   scale_y_discrete(limits = c(df$Age_Group[-11], "")) +
   geom_vline(xintercept = 2.5, size = 1.2) +
